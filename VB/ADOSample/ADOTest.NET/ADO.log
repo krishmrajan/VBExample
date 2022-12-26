@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<UpgradeLog Upgraded = "True" >
+    <Settings>
+        <Setting
+            Name = "LogFile"
+            Value = "ADO.log"
+        />
+        <Setting
+            Name = "GenerateInterfacesForClasses"
+            Value = "FALSE"
+        />
+        <Setting
+            Name = "ProjectName"
+            Value = "ADO"
+        />
+        <Setting
+            Name = "OutputName"
+            Value = "ADO.vbproj"
+        />
+        <Setting
+            Name = "OutputDir"
+            Value = "C:\FileNet\IDM\Sample Code\VB\ADOSample\ADOTest.NET"
+        />
+        <Setting
+            Name = "ProjectPath"
+            Value = "C:\FileNet\IDM\Sample Code\VB\ADOSample\ADO.vbp"
+        />
+        <Setting
+            Name = "MigrateProjectTo"
+            Value = "0"
+        />
+    </Settings>
+    <File
+        OldPath = "C:\FileNet\IDM\Sample Code\VB\ADOSample\frmInitConnection.frm"
+        NewPath = "C:\FileNet\IDM\Sample Code\VB\ADOSample\ADOTest.NET\frmInitConnection.vb"
+        FileType = "Form"
+        Upgraded = "True"
+    />
+    <File
+        OldPath = "C:\FileNet\IDM\Sample Code\VB\ADOSample\dbGlobals.bas"
+        NewPath = "C:\FileNet\IDM\Sample Code\VB\ADOSample\ADOTest.NET\dbGlobals.vb"
+        FileType = "Module"
+        Upgraded = "True"
+    />
+    <File
+        OldPath = "C:\FileNet\IDM\Sample Code\VB\ADOSample\frmConnectionProperties.frm"
+        NewPath = "C:\FileNet\IDM\Sample Code\VB\ADOSample\ADOTest.NET\frmConnectionProperties.vb"
+        FileType = "Form"
+        Upgraded = "True"
+    />
+    <File
+        OldPath = "C:\FileNet\IDM\Sample Code\VB\ADOSample\frmMain.frm"
+        NewPath = "C:\FileNet\IDM\Sample Code\VB\ADOSample\ADOTest.NET\frmMain.vb"
+        FileType = "Form"
+        Upgraded = "True"
+    />
+    <File
+        OldPath = "C:\FileNet\IDM\Sample Code\VB\ADOSample\frmRowset.frm"
+        NewPath = "C:\FileNet\IDM\Sample Code\VB\ADOSample\ADOTest.NET\frmRowset.vb"
+        FileType = "Form"
+        Upgraded = "False"
+    />
+    <Issue
+        Type = "Global Error"
+        Number = "4009"
+    >The referenced component ListView is missing a design time license.</Issue>
+</UpgradeLog>
+

@@ -1,0 +1,7 @@
+This is an example of the content required within a text parent in order to create a link to the child. The first, second and third line of this document will not be evaluated by the recognizer as a path. However, the fifth line is formatted to be a valid link to the child document. (Child must be copied to the specified path)
+
+C:\SampleChild.txt|1|2|1
+
+This creates a link to the child and results in a Dynamic Link which uses the relative path and is set to an update mode of automatic.  Note: the properties |1|2|1 can be left off and a simple path to child used instead.  This would result in the specified child being to linked using default property settings as determined by the recognizer.
+
+      

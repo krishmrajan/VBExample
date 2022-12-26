@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<UpgradeLog Upgraded = "True" >
+    <Settings>
+        <Setting
+            Name = "LogFile"
+            Value = "LocalDB_Tool.log"
+        />
+        <Setting
+            Name = "GenerateInterfacesForClasses"
+            Value = "FALSE"
+        />
+        <Setting
+            Name = "ProjectName"
+            Value = "LocalDB_Tool"
+        />
+        <Setting
+            Name = "OutputName"
+            Value = "LocalDB_Tool.vbproj"
+        />
+        <Setting
+            Name = "OutputDir"
+            Value = "C:\FileNet\IDM\Sample Code\VB\LocalDB\LocalDB_Tool.NET"
+        />
+        <Setting
+            Name = "ProjectPath"
+            Value = "C:\FileNet\IDM\Sample Code\VB\LocalDB\LocalDB_Tool.vbp"
+        />
+        <Setting
+            Name = "MigrateProjectTo"
+            Value = "0"
+        />
+    </Settings>
+    <File
+        OldPath = "C:\FileNet\IDM\Sample Code\VB\LocalDB\LocRecs.frm"
+        NewPath = "C:\FileNet\IDM\Sample Code\VB\LocalDB\LocalDB_Tool.NET\LocRecs.vb"
+        FileType = "Form"
+        Upgraded = "False"
+    />
+    <Issue
+        Type = "Global Error"
+        Number = "4009"
+    >The referenced components StatusBar TreeView CommonDialog ImageList ListView Toolbar  are missing design time licenses.</Issue>
+</UpgradeLog>
+

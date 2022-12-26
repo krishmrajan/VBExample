@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.33026.149
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9621999F-D20F-4A2F-B597-C8928534E032}") = "LocalDB_Tool", "LocalDB_Tool.vb6proj", "{16118587-6E0F-4504-8BB1-BF8AC91F65F5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{16118587-6E0F-4504-8BB1-BF8AC91F65F5}.Debug|x86.ActiveCfg = Debug|x86
+		{16118587-6E0F-4504-8BB1-BF8AC91F65F5}.Debug|x86.Build.0 = Debug|x86
+		{16118587-6E0F-4504-8BB1-BF8AC91F65F5}.Release|x86.ActiveCfg = Release|x86
+		{16118587-6E0F-4504-8BB1-BF8AC91F65F5}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {880B8BA6-441F-4A45-9B58-7A45671908C4}
+	EndGlobalSection
+EndGlobal

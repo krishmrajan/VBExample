@@ -1,0 +1,91 @@
+{\rtf1\ansi\ansicpg1252\uc1 \deff0\deflang1033\deflangfe1033{\fonttbl{\f0\froman\fcharset0\fprq2{\*\panose 02020603050405020304}Times New Roman;}{\f15\fswiss\fcharset0\fprq2{\*\panose 020b0604030504040204}Tahoma;}
+{\f16\froman\fcharset238\fprq2 Times New Roman CE;}{\f17\froman\fcharset204\fprq2 Times New Roman Cyr;}{\f19\froman\fcharset161\fprq2 Times New Roman Greek;}{\f20\froman\fcharset162\fprq2 Times New Roman Tur;}
+{\f21\froman\fcharset186\fprq2 Times New Roman Baltic;}{\f106\fswiss\fcharset238\fprq2 Tahoma CE;}{\f107\fswiss\fcharset204\fprq2 Tahoma Cyr;}{\f109\fswiss\fcharset161\fprq2 Tahoma Greek;}{\f110\fswiss\fcharset162\fprq2 Tahoma Tur;}
+{\f111\fswiss\fcharset186\fprq2 Tahoma Baltic;}}{\colortbl;\red0\green0\blue0;\red0\green0\blue255;\red0\green255\blue255;\red0\green255\blue0;\red255\green0\blue255;\red255\green0\blue0;\red255\green255\blue0;\red255\green255\blue255;
+\red0\green0\blue128;\red0\green128\blue128;\red0\green128\blue0;\red128\green0\blue128;\red128\green0\blue0;\red128\green128\blue0;\red128\green128\blue128;\red192\green192\blue192;}{\stylesheet{\widctlpar\adjustright \fs20\cgrid \snext0 Normal;}{
+\s1\keepn\nowidctlpar\outlinelevel0\adjustright \b\f15\fs20 \sbasedon0 \snext0 heading 1;}{\*\cs10 \additive Default Paragraph Font;}{\s15\nowidctlpar\adjustright \i\f15\fs20 \sbasedon0 \snext15 Body Text;}}{\info{\author Craig Hockenberry}
+{\operator Craig Hockenberry}{\creatim\yr1999\mo5\dy11\hr18\min59}{\revtim\yr1999\mo5\dy25\hr15\min50}{\printim\yr1999\mo5\dy13\hr12\min37}{\version19}{\edmins100}{\nofpages2}{\nofwords414}{\nofchars2361}{\*\company Dell Computer Corporation}
+{\nofcharsws0}{\vern89}}\widowctrl\ftnbj\aenddoc\hyphcaps0\viewkind1\viewscale100 \fet0\sectd \linex0\sectdefaultcl {\*\pnseclvl1\pnucrm\pnstart1\pnindent720\pnhang{\pntxta .}}{\*\pnseclvl2\pnucltr\pnstart1\pnindent720\pnhang{\pntxta .}}{\*\pnseclvl3
+\pndec\pnstart1\pnindent720\pnhang{\pntxta .}}{\*\pnseclvl4\pnlcltr\pnstart1\pnindent720\pnhang{\pntxta )}}{\*\pnseclvl5\pndec\pnstart1\pnindent720\pnhang{\pntxtb (}{\pntxta )}}{\*\pnseclvl6\pnlcltr\pnstart1\pnindent720\pnhang{\pntxtb (}{\pntxta )}}
+{\*\pnseclvl7\pnlcrm\pnstart1\pnindent720\pnhang{\pntxtb (}{\pntxta )}}{\*\pnseclvl8\pnlcltr\pnstart1\pnindent720\pnhang{\pntxtb (}{\pntxta )}}{\*\pnseclvl9\pnlcrm\pnstart1\pnindent720\pnhang{\pntxtb (}{\pntxta )}}\pard\plain \nowidctlpar\adjustright 
+\fs20\cgrid {\b\f15\fs36\cgrid0 Compound Document Tour}{\f15\fs36\cgrid0 
+\par }{\f15\cgrid0 
+\par Compound Documents are a major new feature of IDM Desktop 3.0. This document will take you on a short tour that explains this new feature.
+\par 
+\par }\pard\plain \s15\nowidctlpar\adjustright \i\f15\fs20 {Note: This document assumes that your preference settings and installation directory are all set to the defaults.
+\par }\pard\plain \nowidctlpar\adjustright \fs20\cgrid {\f15\cgrid0 
+\par 
+\par }\pard\plain \s1\keepn\nowidctlpar\outlinelevel0\adjustright \b\f15\fs20 {Create a Sample Compound Document
+\par }\pard\plain \nowidctlpar\adjustright \fs20\cgrid {\f15\cgrid0 
+\par The first thing to do is create a sample compound document. A compound document can easily be created with Microsoft Office and OLE.
+\par 
+\par Open the folder named \ldblquote Documents\rdblquote  and double-click on the file named "Parent.doc". The basic concepts of compound documents will be explained you will be given instructions on how to create your own document.
+\par 
+\par The sample document will be used throughout the remainder of this tour.
+\par 
+\par 
+\par }\pard\plain \s1\keepn\nowidctlpar\outlinelevel0\adjustright \b\f15\fs20 {Saving a Compound Document to a Library
+\par }\pard\plain \nowidctlpar\adjustright \fs20\cgrid {\b\f15\cgrid0 
+\par }{\f15\cgrid0 After you have had a chance to create a compound document, you should save it in one of your Panagon libraries.
+\par 
+\par The simplest way to do this is to drag the Parent.doc file into an Explorer window that is logged onto a DS server. Only the Parent needs to be added to the library; the children will 
+be added automatically using the links in the parent. Make sure that both the parent and children are not open in the application that created them.
+\par 
+\par When the Add Document window appears, it will ask you if you want to determine if the document is a compound document. Select \ldblquote Yes\rdblquote  and press \ldblquote Next >\rdblquote 
+. If answering this question each time is annoying, you can change the \ldblquote Documents/Add, checkin, retrieve\rdblquote  preferences.
+\par 
+\par Now, select a document class and put a checkmark in \ldblquote Keep local copy\rdblquote . It\rquote s also helpful to pick a title like \ldblquote My first compound document\rdblquote . This is no different than how you save a normal document.
+\par 
+\par Press \ldblquote Next >\rdblquote  again to assign document security. Again, this is the same.
+\par 
+\par Press \ldblquote Next >\rdblquote  again to get to the actions dialog. In this dialog, you can verify that the links from the parent document point to the right children.
+\par 
+\par When the parent document is being added to the library, the links to the children are validated. If there is a problem with one of the links, the Add Document dialog will displa
+y the errors. A red dot is placed next to the child that cannot be found. If there is a potential problem with the link, a yellow triangle is displayed (a warning symbol). The safest thing to do when you get something other than the green arrow is to canc
+el and fix the links.
+\par 
+\par When the compound document has been successfully added to the library, you\rquote ll see 4 small gray blocks in the lower-left hand corner of the document\rquote s icon. This gray icon will be displayed for all compound documents.
+\par 
+\par }\pard\plain \s1\keepn\nowidctlpar\outlinelevel0\adjustright \b\f15\fs20 {Checking Out or Copying a Compound Document from a Library
+\par }\pard\plain \nowidctlpar\adjustright \fs20\cgrid {\f15\cgrid0 
+\par Getting the compound document into the library is not much different than a normal document. Getting the document out of a library is }{\f15\ul\cgrid0 very}{\f15\cgrid0  different.
+\par 
+\par A normal document is checked out or copied to the directory that you set up in your preferences (\ldblquote Directory and Files/Checkout and Copies\rdblquote 
+). Since there is only one document being checked out, you only have to look in this directory to find the checked out or copied files.
+\par 
+\par When a compound document is checked out or copied, only the par
+ent is placed in this directory. The children are placed on the same volume and in the same directory as they were originally checked in. We realize that this is far from intuitive, but there is a very good reason for doing it this way: the original paren
+t document is not modified in any way. If the children were placed in the checkout/copy directories, then the links of the parent would have to be modified (and in most document management environments, this is an undesirable action).
+\par 
+\par For example, say you checked in the sample compound document from the Samples directory. The original paths for this document is:
+\par 
+\par }{\f15\fs16\cgrid0 C:\\Program Files\\FileNET\\IDM\\Sample Code\\VB\\Compound Documents\\Documents\\Parent.doc
+\par C:\\Program Files\\FileNET\\IDM\\Sample Code\\VB\\Compound Documents\\Documents\\WordChild.doc
+\par C:\\Program Files\\FileNET\\IDM\\Sample Code\\VB\\Compound Documents\\Documents\\ExcelChild.xls
+\par }{\f15\cgrid0 
+\par After you do a checkout or copy, the paths to the document will be:
+\par 
+\par }{\f15\fs16\cgrid0 C:\\WinNT\\Profiles\\YourLogin\\Personal\\Parent.doc
+\par C:\\Program Files\\FileNET\\IDM\\Sample Code\\VB\\Compound Documents\\Documents\\WordChild.doc
+\par C:\\Program Files\\FileNET\\IDM\\Sample Code\\VB\\Compound Documents\\Documents\\ExcelChild.xls
+\par }{\f15\cgrid0 
+\par Be careful not to move these files after the checkout or copy. If you do, you\rquote ll break the links in the documents and have problems updating the parent with the children.
+\par 
+\par 
+\par }\pard\plain \s1\keepn\nowidctlpar\outlinelevel0\adjustright \b\f15\fs20 {The Local Database
+\par }\pard\plain \nowidctlpar\adjustright \fs20\cgrid {\f15\cgrid0 
+\par The local database is a new component that helps keep track of where the compound documents are stored on your local hard disk.
+\par 
+\par The LocalDB_Tool (included in the Sample Code/VB directory) is good way to keep track of where documents are being stored. With this tool, you can see the name of the document, which directory it\rquote 
+s stored in, and whether is was copied or checked out.
+\par 
+\par You can also use the LocalDB_Tool to clean up the database when you are testing your code (failures may leave some orphans in the database).
+\par }{\cgrid0 
+\par 
+\par }\pard\plain \s1\keepn\nowidctlpar\outlinelevel0\adjustright \b\f15\fs20 {The }{Sample Code}{
+\par }\pard\plain \nowidctlpar\adjustright \fs20\cgrid {\f15\cgrid0 
+\par }{\f15\cgrid0 Now is a good time to examine the compound document sample code. The instructions for running the sample application are contained in the file ReadMe.txt
+\par 
+\par }{\f15\cgrid0 
+\par }{\cgrid0 
+\par }}

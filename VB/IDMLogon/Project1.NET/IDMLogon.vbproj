@@ -1,0 +1,262 @@
+<VisualStudioProject>
+    <VisualBasic
+        ProjectType = "Local"
+        ProductVersion = "7.10.3077"
+        SchemaVersion = "2.0"
+        ProjectGuid = "{1A7AF63C-7ECA-4638-B1E3-ACFB12F5F9F4}"
+    >
+        <Build>
+            <Settings
+                ApplicationIcon = "IDMLogon.ico"
+                AssemblyKeyContainerName = ""
+                AssemblyName = "Project1"
+                AssemblyOriginatorKeyFile = ""
+                AssemblyOriginatorKeyMode = "None"
+                DefaultClientScript = "JScript"
+                DefaultHTMLPageLayout = "Grid"
+                DefaultTargetSchema = "IE50"
+                DelaySign = "false"
+                OutputType = "WinExe"
+                OptionCompare = "Binary"
+                OptionExplicit = "On"
+                OptionStrict = "Off"
+                RootNamespace = "Project1"
+                StartupObject = "Project1.frmLogon"
+            >
+                <Config
+                    Name = "Debug"
+                    BaseAddress = "285212672"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = "Win32 = True"
+                    DefineDebug = "true"
+                    DefineTrace = "true"
+                    DebugSymbols = "true"
+                    IncrementalBuild = "true"
+                    Optimize = "false"
+                    OutputPath = "bin\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "1"
+                />
+                <Config
+                    Name = "Release"
+                    BaseAddress = "285212672"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = "Win32 = True"
+                    DefineDebug = "false"
+                    DefineTrace = "true"
+                    DebugSymbols = "false"
+                    IncrementalBuild = "true"
+                    Optimize = "false"
+                    OutputPath = "bin\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "1"
+                />
+            </Settings>
+            <References>
+                <Reference
+                    Name = "System"
+                    AssemblyName = "System"
+                />
+                <Reference
+                    Name = "System.Data"
+                    AssemblyName = "System.Data"
+                />
+                <Reference
+                    Name = "System.Drawing"
+                    AssemblyName = "System.Drawing"
+                />
+                <Reference
+                    Name = "System.Windows.Forms"
+                    AssemblyName = "System.Windows.Forms"
+                />
+                <Reference
+                    Name = "System.XML"
+                    AssemblyName = "System.Xml"
+                />
+                <Reference
+                    Name = "Microsoft.VisualBasic.Compatibility"
+                    AssemblyName = "Microsoft.VisualBasic.Compatibility"
+                />
+                <Reference
+                    Name = "IDMError"
+                    Guid = "{8F67D660-16D0-11D0-A604-0020AF284246}"
+                    VersionMajor = "3"
+                    VersionMinor = "1"
+                    Lcid = "0"
+                    WrapperTool = "tlbimp"
+                />
+                <Reference
+                    Name = "IDMObjects"
+                    Guid = "{26BF8AE1-7F76-11D0-9D38-0060974FFE14}"
+                    VersionMajor = "3"
+                    VersionMinor = "1"
+                    Lcid = "0"
+                    WrapperTool = "tlbimp"
+                />
+                <Reference
+                    Name = "MSComDlg"
+                    Guid = "{F9043C88-F6F2-101A-A3C9-08002B2F49FB}"
+                    VersionMajor = "1"
+                    VersionMinor = "2"
+                    Lcid = "0"
+                    WrapperTool = "tlbimp"
+                />
+                <Reference
+                    Name = "AxMSComDlg"
+                    Guid = "{F9043C88-F6F2-101A-A3C9-08002B2F49FB}"
+                    VersionMajor = "1"
+                    VersionMinor = "2"
+                    Lcid = "0"
+                    WrapperTool = "aximp"
+                />
+                <Reference
+                    Name = "IDMListView"
+                    Guid = "{2A601BA0-B880-11CF-8185-444553540000}"
+                    VersionMajor = "3"
+                    VersionMinor = "1"
+                    Lcid = "0"
+                    WrapperTool = "tlbimp"
+                />
+                <Reference
+                    Name = "AxIDMListView"
+                    Guid = "{2A601BA0-B880-11CF-8185-444553540000}"
+                    VersionMajor = "3"
+                    VersionMinor = "1"
+                    Lcid = "0"
+                    WrapperTool = "aximp"
+                />
+                <Reference
+                    Name = "IDMSimpleQuery"
+                    Guid = "{00727125-0202-11D1-9BEB-00A0241E626D}"
+                    VersionMajor = "3"
+                    VersionMinor = "1"
+                    Lcid = "0"
+                    WrapperTool = "tlbimp"
+                />
+                <Reference
+                    Name = "AxIDMSimpleQuery"
+                    Guid = "{00727125-0202-11D1-9BEB-00A0241E626D}"
+                    VersionMajor = "3"
+                    VersionMinor = "1"
+                    Lcid = "0"
+                    WrapperTool = "aximp"
+                />
+                <Reference
+                    Name = "IDMTreeView"
+                    Guid = "{54E6FE61-B93A-11CF-8185-444553540000}"
+                    VersionMajor = "3"
+                    VersionMinor = "1"
+                    Lcid = "0"
+                    WrapperTool = "tlbimp"
+                />
+                <Reference
+                    Name = "AxIDMTreeView"
+                    Guid = "{54E6FE61-B93A-11CF-8185-444553540000}"
+                    VersionMajor = "3"
+                    VersionMinor = "1"
+                    Lcid = "0"
+                    WrapperTool = "aximp"
+                />
+                <Reference
+                    Name = "IDMViewerCtrl"
+                    Guid = "{A9983B40-CE52-11CF-AE75-00A0248802BA}"
+                    VersionMajor = "3"
+                    VersionMinor = "1"
+                    Lcid = "0"
+                    WrapperTool = "tlbimp"
+                />
+                <Reference
+                    Name = "AxIDMViewerCtrl"
+                    Guid = "{A9983B40-CE52-11CF-AE75-00A0248802BA}"
+                    VersionMajor = "3"
+                    VersionMinor = "1"
+                    Lcid = "0"
+                    WrapperTool = "aximp"
+                />
+                <Reference
+                    Name = "IDMQuery"
+                    Guid = "{094F3F00-E08E-11CF-A226-0020AF744B85}"
+                    VersionMajor = "3"
+                    VersionMinor = "1"
+                    Lcid = "0"
+                    WrapperTool = "tlbimp"
+                />
+                <Reference
+                    Name = "AxIDMQuery"
+                    Guid = "{094F3F00-E08E-11CF-A226-0020AF744B85}"
+                    VersionMajor = "3"
+                    VersionMinor = "1"
+                    Lcid = "0"
+                    WrapperTool = "aximp"
+                />
+                <Reference
+                    Name = "IDMThumbnailCtrl"
+                    Guid = "{8E1B4142-609A-11D1-A3FF-00A024576F0A}"
+                    VersionMajor = "9"
+                    VersionMinor = "0"
+                    Lcid = "0"
+                    WrapperTool = "tlbimp"
+                />
+                <Reference
+                    Name = "AxIDMThumbnailCtrl"
+                    Guid = "{8E1B4142-609A-11D1-A3FF-00A024576F0A}"
+                    VersionMajor = "9"
+                    VersionMinor = "0"
+                    Lcid = "0"
+                    WrapperTool = "aximp"
+                />
+                <Reference
+                    Name = "stdole"
+                    Guid = "{00020430-0000-0000-C000-000000000046}"
+                    VersionMajor = "2"
+                    VersionMinor = "0"
+                    Lcid = "0"
+                    WrapperTool = "primary"
+                />
+            </References>
+            <Imports>
+                <Import Namespace = "Microsoft.VisualBasic" />
+                <Import Namespace = "Microsoft.VisualBasic.Compatibility" />
+                <Import Namespace = "System" />
+                <Import Namespace = "System.Collections" />
+                <Import Namespace = "System.Data" />
+                <Import Namespace = "System.Drawing" />
+                <Import Namespace = "System.Diagnostics" />
+                <Import Namespace = "System.Windows.Forms" />
+            </Imports>
+        </Build>
+        <Files>
+            <Include>
+                <File
+                    RelPath = "_UpgradeReport.htm"
+                    SubType = "Preview"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "AssemblyInfo.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "IDMLogon.ico"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "IDMLogon.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "IDMLogon.resX"
+                    DependentUpon = "IDMLogon.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+            </Include>
+        </Files>
+    </VisualBasic>
+</VisualStudioProject>
+

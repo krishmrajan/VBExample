@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <MinimumVisualStudioVersion>11.0</MinimumVisualStudioVersion>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">11.0</VisualStudioVersion>
+    <VisualBasicProjectFile>LocalDB_Tool.vbp</VisualBasicProjectFile>
+    <Name>LocalDB_Tool</Name>
+    <RootNamespace>LocalDB_Tool</RootNamespace>
+    <ProjectView>ShowAllFiles</ProjectView>
+  </PropertyGroup>
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>16118587-6e0f-4504-8bb1-bf8ac91f65f5</ProjectGuid>
+    <ProjectTypeGuids>{9621999f-d20f-4a2f-b597-c8928534e032}</ProjectTypeGuids>
+    <OutputType>Exe</OutputType>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\Debug\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\Release\</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="LocalDB_Tool.vbp">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="LocGroup.frx">
+      <SubType>Content</SubType>
+      <DependentUpon>LocGroup.frm</DependentUpon>
+    </Content>
+    <Content Include="LocRec.frx">
+      <SubType>Content</SubType>
+      <DependentUpon>LocRec.frm</DependentUpon>
+    </Content>
+    <Content Include="LocRecs.frx">
+      <SubType>Content</SubType>
+      <DependentUpon>LocRecs.frm</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Globals.bas">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="LocGroup.frm">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="LocRec.frm">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="LocRecs.frm">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.Common.targets" />
+  <Target Name="CreateManifestResourceNames">
+  </Target>
+  <Target Name="CoreCompile">
+  </Target>
+</Project>

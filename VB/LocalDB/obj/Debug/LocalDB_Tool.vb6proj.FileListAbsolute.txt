@@ -1,0 +1,2 @@
+C:\FileNet\IDM\Sample Code\VB\LocalDB\bin\Debug\LocalDB_Tool.exe
+C:\FileNet\IDM\Sample Code\VB\LocalDB\obj\Debug\LocalDB_Tool.vb6proj.CoreCompileInputs.cache

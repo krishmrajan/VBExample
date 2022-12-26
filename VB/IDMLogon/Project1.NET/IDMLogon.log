@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<UpgradeLog>
+    <Settings>
+        <Setting
+            Name = "LogFile"
+            Value = "IDMLogon.log"
+        />
+        <Setting
+            Name = "GenerateInterfacesForClasses"
+            Value = "FALSE"
+        />
+        <Setting
+            Name = "ProjectName"
+            Value = "IDMLogon"
+        />
+        <Setting
+            Name = "OutputName"
+            Value = "IDMLogon.vbproj"
+        />
+        <Setting
+            Name = "OutputDir"
+            Value = "C:\FileNet\IDM\Sample Code\VB\IDMLogon\Project1.NET"
+        />
+        <Setting
+            Name = "ProjectPath"
+            Value = "C:\FileNet\IDM\Sample Code\VB\IDMLogon\IDMLogon.vbp"
+        />
+        <Setting
+            Name = "MigrateProjectTo"
+            Value = "0"
+        />
+    </Settings>
+    <File
+        OldPath = "C:\FileNet\IDM\Sample Code\VB\IDMLogon\IDMLogon.frm"
+        NewPath = "C:\FileNet\IDM\Sample Code\VB\IDMLogon\Project1.NET\IDMLogon.vb"
+        FileType = "Form"
+        Upgraded = "True"
+    >
+        <Section Name = "Shell_NotifyIcon" >
+            <Issue
+                Type = "Runtime"
+                Number = "1050"
+            >Structure NOTIFYICONDATA may require marshalling attributes to be passed as an argument in this Declare statement.</Issue>
+        </Section>
+        <Section Name = "cmbLibraries_Click" >
+            <Issue
+                Type = "Runtime"
+                Number = "2075"
+            >Event cmbLibraries.SelectedIndexChanged may fire when form is initialized.</Issue>
+        </Section>
+        <Section Name = "Form_Resize" >
+            <Issue
+                Type = "Runtime"
+                Number = "2075"
+                ObjectType = "Form"
+                PME = "Resize"
+            >Event frmLogon.Resize may fire when form is initialized.</Issue>
+        </Section>
+        <Section Name = "Form_Terminate" >
+            <Issue
+                Type = "Runtime"
+                Number = "2065"
+                ObjectName = "Form"
+                ObjectType = "frmLogon"
+                PME = "Terminate"
+            >frmLogon event Form.Terminate has a new behavior.</Issue>
+        </Section>
+    </File>
+</UpgradeLog>
+

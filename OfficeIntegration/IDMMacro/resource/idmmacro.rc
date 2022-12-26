@@ -1,0 +1,1111 @@
+//==================================================================
+//Resources file for the idmMacro
+//==================================================================
+//==================================================================
+// PART 1 Strings 
+//==================================================================
+#define ADD_FN_DOC                              1001
+
+#define READ_ONLY                               3001
+
+#define DEFAULT                                 4000
+#define DEFAULT_PATH                            4001
+#define DOC_PATH			        4002
+#define DLG_ERR_EXCEL_DEL_PROP		        4003
+#define DLG_ERR_EXCEL_GET_PROP	                4004
+#define DLG_ERR_EXCEL_INSERT_PROP	        4005
+#define DLG_ERR_EXCEL_UPDATE_PROP	        4006
+#define DLG_ERR_FRMPROPMGR_CMDINSERT	        4007
+#define DLG_ERR_FRMPROPMGR_CMDREPLACE_CLICK	4008
+#define DLG_ERR_FRMPROPMGR_CMDGOTO_CLICK	4009
+#define DLG_ERR_FRMPROPMGR_EXCEL_SUMMARY	4010
+#define DLG_ERR_FRMPROPMGR_REMOVE_ENTRY		4011
+#define DLG_ERR_FRMPROPMGR_WORD_SUMMARY		4012
+#define DLG_ERR_GET_DOC_STATUS			4013
+#define DLG_ERR_GET_OBJECT 		        4014
+#define DLG_ERR_GET_PROP_PROP		        4015
+#define DLG_ERR_GOTO_PROP		        4016
+#define DLG_ERR_INBOOKMARK			4017
+#define DLG_ERR_INSERT_PROP		        4018
+#define DLG_ERR_REPLACE_PROP		        4019
+#define DLG_ERR_SHOW_PROP			4020
+#define DLG_ERR_SHOW_PROP_MGR 		        4021
+#define DLG_ERR_SHOWPROP		        4022
+#define DLG_ERR_WORD_DEL_PROP		        4023
+#define DLG_ERR_WORD_GET_PROP		        4024
+#define DLG_ERR_WORD_GOTO_PROP		        4025
+#define DLG_ERR_WORD_INSERT_PROP	        4026
+#define DLG_ERR_WORD_UPDATE_PROP	        4027
+#define DLG_ERROR_TITLE                         4028
+#define DLG_PRINT                               4029
+#define DLG_SAVE_TO_LOCAL_DRIVE                 4030
+#define DLG_WARNING                             4031
+#define DLG_ERR_PAGE_ZERO			4032
+#define DLG_ERR_PAGE_FIRST			4033
+#define DLG_ERR_PAGE_LAST			4034
+
+#define EXT_WORD                                 5001
+#define EXT_EXCEL                                5002
+#define EXT_PP                                   5003
+
+#define EXT_WORD0                                5007
+#define EXT_WORD1 				 5008
+#define EXT_WORD2 				 5009
+#define EXT_WORD3 				 5010
+#define EXT_WORD4                                5011
+#define EXT_WORD5 				 5012
+#define EXT_WORD6				 5013
+#define EXT_WORD7 				 5014
+#define EXT_WORD8 				 5015
+#define EXT_WORD9 				 5016
+#define EXT_WORD10 				 5017
+#define EXT_WORD11 				 5018
+#define EXT_WORD12 				 5019
+#define EXT_WORD13 				 5020
+#define EXT_WORD14 				 5021
+#define EXT_WORD15 				 5022
+#define EXT_WORD16 				 5023
+#define EXT_WORD17 				 5024
+
+#define EXT_EXCEL1 			 	 5025
+#define EXT_EXCEL2 			 	 5026
+#define EXT_EXCEL3 				 5027
+#define EXT_EXCEL4 			 	 5028
+#define EXT_EXCEL5 			 	 5029
+#define EXT_EXCEL6 			 	 5030
+#define EXT_EXCEL7 				 5031
+#define EXT_EXCEL8 				 5032
+#define EXT_EXCEL9 		 		 5033
+#define EXT_EXCEL10 		 		 5034
+#define EXT_EXCEL11 	 			 5035
+#define EXT_EXCEL12		   		 5036
+#define EXT_EXCEL13 				 5037
+#define EXT_EXCEL14 				 5038
+#define EXT_EXCEL15 				 5039
+#define EXT_EXCEL16	 			 5040
+#define EXT_EXCEL17	 			 5041
+#define EXT_EXCEL18 				 5042
+#define EXT_EXCEL19 		  		 5043
+
+#define EXT_PP1 		 		 5044
+#define EXT_PP2 		 		 5045
+#define EXT_PP3 		 		 5046
+#define EXT_PP4 				 5047
+#define EXT_PP5 				 5048
+#define EXT_PP6 				 5049
+
+#define FILTER_ALL_FILE                          6001
+#define FILTER_WORD_FILTER1                      6002
+#define FILTER_WORD_FILTER2                      6003
+#define FILTER_WORD_FILTER3                      6004
+#define FILTER_WORD_FILTER4                      6005
+
+#define FILTER_EXCEL_FILTER1                     6006
+#define FILTER_EXCEL_FILTER2                     6007
+#define FILTER_EXCEL_FILTER3                     6008
+#define FILTER_EXCEL_FILTER4                     6009
+#define FILTER_EXCEL_FILTER5                     6010
+#define FILTER_EXCEL_FILTER6                     6011
+#define FILTER_EXCEL_FILTER7                     6012
+
+#define FILTER_WORDPPO_FILTER1                   6013
+#define FILTER_WORDPPO_FILTER2                   6014
+#define FILTER_WORDPPO_FILTER3                   6015
+#define FILTER_WORDPPO_FILTER4                   6016
+
+
+#define IDM_GRID_HEADER				9001
+#define IDM_PROP_BODY  			        9002
+#define IDM_PROP_FOOTER_EVEN_PAGE	        9003
+#define IDM_PROP_FOOTER_FIRST_PAGE	        9004
+#define IDM_PROP_FOOTER_ODD_PAGE	        9005
+#define IDM_PROP_HEADER_EVEN_PAGE	        9006
+#define IDM_PROP_HEADER_FIRST_PAGE              9007
+#define IDM_PROP_HEADER_ODD_PAGE                9008
+#define IDM_QUESTION_MARK			9009
+#define IDM_SEPARATOR				9010
+#define IDM_SPACE				9011
+#define IDM_TAG 				9012
+#define IDM_UPDATE_MENU                         9013
+#define IDM_WORD_TEMPLATE_FILENAME              9014
+#define INSERT_FN_ATTACHMENT                    9015
+#define INSERT_FN_FILE                          9016 
+
+#define LOCAL_CHECKOUT			        1201
+#define LOCAL_COPIES			        1202
+
+#define MNU_FN_ADD			        1301
+#define MNU_FN_CHECKIN			        1302
+#define MNU_FN_OPEN			        1303
+#define MNU_FN_PREFERENCES                      1304
+#define MNU_FN_PROPERTIES                       1305
+#define MNU_FN_SAVE			        1306
+#define MNU_FN_SHOW			        1307
+#define MNU_INSERT_FILE			        1308
+#define MNU_INSERT_MEZZ_PROP	                1309
+#define MNU_SAVEAS			        1310         
+#define MNU_UPDATE_MEZZ_PROP                    1311 
+
+#define MSG_ADD  			        1312
+#define MSG_CANCEL_CHECKOUT		        1313        
+#define MSG_CANNOT_CHECKOUT                     1314
+#define	MSG_CANNOT_CREATE_CMNDIALOG	        1315
+#define	MSG_CANNOT_CREATE_DOC 		        1316
+#define	MSG_CANNOT_CREATE_ERRMGR	        1317
+#define	MSG_CANNOT_CREATE_LIBRARY               1318
+#define MSG_CANNOT_GET_PROP_OBJECT	        1319
+#define	MSG_CANNOT_GET_PROPERTY 	        1320
+#define	MSG_CANNOT_GET_VERSION		        1321
+#define MSG_CHECK_PROP_MGR                      1322
+#define MSG_CHECK_SDM_STRING                    1323
+#define	MSG_CHECKIN 			        1324
+#define MSG_CLOSE                               1325
+#define MSG_CONFIRM_DELETE		        1326
+#define MSG_CONFIRM_REPLACE			1327
+#define MSG_CONVERSION                          1328
+#define MSG_COPY_TO_CLIPBOARD                   1329                   
+
+#define MSG_DELETE_PROP			        1330
+#define MSG_DELETE_MEZZ_PROP_EXCELL             1331
+#define	MSG_DELETE_PROP_WORD		        1332
+
+#define MSG_DO_YOU_WANT_TO_CONVERT_SDM_TO_IDM   1333
+#define MSG_DO_YOU_WANT_TO_PRINT_FILE           1334
+#define MSG_DO_YOU_WANT_TO_UPDATE_PROPERTIES    1335
+
+#define MSG_ERR_MANAGER_NOT_INITIALIZED         1336
+#define MSG_ERROR_IN_GET_BOOKMARKS_EXCELL       1337
+#define MSG_ERROR_IN_GET_BOOKMARKS_WORD         1338
+#define MSG_ERROR_IN_SHOW_PROPERTY_MGR	        1339
+#define MSG_ERROR_IN_WORD_UPDATE_PROP           1340
+#define	MSG_ERROR_WITHOUT_ERRMGR	        1341
+
+#define MSG_FILE_ADD_CHECKEDOUT 	        1342
+#define MSG_FILE_EXISTS_OVERWRITE	        1343
+#define MSG_FILE_NOT_CHECKOUT                   1344
+#define MSG_FILE_NOT_EXIST                      1345
+#define MSG_FILE_OPEN_OVERWRITE 	        1346
+#define MSG_FILE_OPENPPT_OVERWRITE 	        1347
+#define MSG_FILE_SAVE_CHANGES		        1348
+#define MSG_FILE_SAVEAS_CHECKEDOUT	        1349
+#define MSG_FILE_SAVEAS_OVERWRITE	        1350
+#define	MSG_FILECHECKIN 	                1351
+#define	MSG_FILENET                             1352
+#define	MSG_FILENETSAVE 	                1353
+
+#define MSG_GET_ACTIVE_FILE                     1354
+#define MSG_GET_DOC_PATH 		  	1355
+#define MSG_GET_DOC_STATUS                      1356
+#define MSG_GET_PROP_LABEL		        1357
+#define MSG_GET_UNIQUE_NUMBER                   1358
+#define MSG_GOTO_BOOKMARK		        1359
+
+#define MSG_IN_CELL 				1360
+#define MSG_IN_SECTION 				1361
+#define MSG_INSERT_MEZZ_PROP                    1362
+#define	MSG_INSERT_MEZZ_PROP_EXCELL     	1363
+#define MSG_INSERT_POINT_ALREADY_PROPERTY	1364
+#define	MSG_INSERT_PROP 		        1365
+#define MSG_INSERT_PROPERTIES		  	1366
+#define MSG_INSERT_WORD_BOOKMARK                1367
+#define MSG_IS_DOC_CHECKEDOUT		        1368
+ 
+#define MSG_KEEP_LOCAL_COPY                     1369
+#define MSG_LOAD_IDM_STRING                     1370
+#define MSG_MUST_ADD_FIRST 			1371
+#define MSG_NO_DOC               	        1372
+#define MSG_NOT_A_CHECHEDOUT_DOC                1373
+#define MSG_NOT_A_CHECKEDOUT_FILE               1374
+#define MSG_NOT_CHECKED_OUT			1375
+#define MSG_NOT_CHECKOUT           	        1376
+#define MSG_ON_PAGE 				1377
+#define	MSG_OPEN                                1378
+#define MSG_OPEN_DOC_NOT_SUPPORT                1379
+#define MSG_OPEN_METHOD_FAILED                  1380
+#define MSG_PREFERENCES 		  	1381
+#define MSG_PRINT                               1382
+
+#define MSG_SAVE                                1383
+#define MSG_SAVEAS			        1384
+#define MSG_SHOW_PROP 			        1385
+#define MSG_SHOW_PROPERTY_MGR		        1386
+#define MSG_SHOW_TOOLBAR                        1387
+#define MSG_UPDATE_PROP                         1388
+#define MSG_UPDATE_PROP_GRID                    1389
+#define MSG_UPDATE_PROPERTIES		  	1390
+#define MSG_WITH				1391
+#define MSG_OPERATION_NOT_DEFINED               1392
+#define MNU_FN_HELP                             1393
+#define MSG_POWERPOINT_BLOCK                    1394
+#define MSG_RETURN                              1395
+#define MSG_PRESENTATION                        1396
+#define MSG_CONTAINSLINKS                       1397
+#define MSG_CAN_NOT_INSERT_COMP_DOC             1398
+#define MSG_INSUFFICIENT_RIGHT                  1399
+#define MSG_FILE_PATH_AND_NAME_TOO_LONG         13100
+#define MSG_FILE_NAME_CANNOT_CONTAIN_CHARACTER  13101
+#define MSG_DELETE_CHARACTER                    13102 
+#define MSG_CANOT_COPY_DOC                      13103
+#define MSG_FILE_ADD_CHECKEDOUT1                13104  
+#define MSG_FILE_ADD_CHECKEDOUT2                13105 
+#define MSG_WOULD_YOU_LIKE_TO_CONTINE_ADD       13106 
+#define MSG_DOCID                               13107
+#define MSG_LIBRARY                             13108
+#define MSG_FILENAME                            13109
+#define MSG_THE_CHECKEDOUT_FILE_INFO            13110
+#define MSG_WOULD_YOU_LIKE_TO_CANCEL_CHECKOUT   13111
+#define MSG_CLIPBOARD                           13112
+
+#define OPEN_FN_DOC                             1501
+#define OPTIONS_DIALOG_ADD_TITLE	        1502
+#define OPTIONS_DIALOG_CHECKIN_TITLE	        1503
+#define OPTIONS_DIALOG_SHOW_PROPS	        1504
+#define OPTIONS_GET_DOC_OBJECT                  1505
+
+#define PERSONAL		       	        1601
+#define PROMPT_DELETE_PROPERTY			1602
+#define PROMPT_REPLACE_PROPERTY			1603
+#define PRINTER_NOT_INSTALL                     1604
+
+#define REG_KEY_DEFAULT_LOCATION                1801
+#define REG_KEY_EXCELL                          1802
+#define REG_KEY_POWERPOINT                      1803
+#define REG_KEY_SHELL_FOLDER                    1804
+#define	REG_KEY_WORD                            1805
+
+#define SDM_N_TAG 				1901
+#define SDM_TAG                                 1902
+#define STR_ADD_CHECKIN_RETRIEVE                1903
+#define STR_APP_INTEGRATION			1904
+#define STR_CAN_NOT_BE_CONVERT                  1905
+#define STR_CHECKEDOUT                          1906
+#define STR_COPIED                              1907
+#define STR_DCDC                                1908
+#define STR_DOCUMENT                            1909
+#define STR_EXCEL_INTEGRATION                   1910
+#define STR_OUTLOOK_INTEGRATION                 1911
+#define STR_PP_FILTER1                          1912
+#define STR_PP_FILTER2                          1913
+#define STR_PP_FILTER3                          1914
+#define STR_PP_FILTER4                          1915
+#define STR_PP_FILTER5                          1916
+#define STR_PP_FILTER6                          1917
+#define STR_PP_FILTER7                          1918
+#define STR_PP_FILTER8                          1919
+#define STR_PP_FILTER9                          1920
+#define STR_PP_INTEGRATION                      1921
+#define STR_SET_DOC_TITLE_TO_FILENAME           1922
+#define STR_SHOW_DOC_STATUS                     1923
+#define STR_SHOW_TOOLBAR                        1924
+#define STR_THE_BOOKMARK                        1925
+#define STR_UPDATE_ENBEDDED_PROP                1926
+#define STR_UPDATE_PROP_AFTER_CHECKOUT          1927
+#define STR_UPDATE_PROP_BEFORE_CHECKIN          1928
+#define STR_UPDATE_PROPERTIES                   1929
+#define STR_WORD_INTEGRATION                    1930
+#define STR_PRT_SAVE_ADD                        1931
+#define STR_PRT_SAVE_CHECKIN                    1932
+#define STR_SDCDC                               1933
+#define STR_DIRECTORIES_AND_FILES               1934 
+#define STR_LOCAL_CACHING                       1935
+#define STR_CACHE_DIRECTORY                     1936
+#define STR_KEEP_LOCAL_COPY                     1937
+#define STR_SHOW_KEEP_LOCAL_COPY                1938
+#define STR_WARNING                             1939
+#define STR_HELP_FILE                           1940
+#define STR_FN_HELP                             1941
+#define STR_PATH_DOES_NOT_EXIST                 1942
+#define STR_VERIFY_PATH                         1943
+#define STR_CHECK_OR_COPY_TO                    1944
+#define STR_FOLDER_REQ_WHEN_ADD                 1945 
+#define STR_CHECKIN_LINK                        1946
+#define STR_EXTERNAL_DOC                        1947 
+#define STR_Mezzanine_Installed                 1948
+#define STR_SubKey_IDM_Install                  1949
+#define STR_CHECKIN                             1950
+#define STR_ADD                                 1951
+#define STR_ADD_LINK                            1952
+#define STR_FNI                                 1953
+#define STR_DIALOG                              1954
+#define STR_MEZZ                                1955
+#define STR_IDM					1956
+#define STR_COPYDIR                             1957
+#define STR_CHECKOUTDIR                         1958
+#define STR_PRINT_DOC_ON_ADD                    1959 
+#define STR_IN                                  1960
+#define STR_MODIFY_CONTROLS                     1961 
+#define STR_CHECKOUTS_AND_COPIES                1962
+#define STR_OTHER                               1963
+#define STR_LOCALDB                             1964 
+#define STR_LOCALDB_KEY                         1965
+#define STR_INDEX_OUT_RANGE                     1966
+#define STR_PPT                                 1967
+#define STR_POWERPOINT                          1968
+#define STR_BUTTON                              1969
+#define STR_TOOLBAR_BUTTON_FACE 		1970
+#define STR_TOOLBAR_BUTTON_MASK                 1971
+#define STR_ALLFILES                            1972
+#define STR_WORD                                1973
+#define STR_WORD_APPLICATION                    1974
+#define STR_CACHE                               1975
+#define STR_MS_WORD                             1976  
+#define STR_REPLICA                             1977
+#define STR_TOOLBAR_BUTTON_MASK_97              1978
+#define STR_TOOLBAR_BUTTON_MASK_2000            1979
+#define STR_TOOLBAR_BUTTON_FACE_97              1980
+#define STR_TOOLBAR_BUTTON_FACE_2000            1981
+#define STR_DO_YOU_WANT_TO_SAVE_THE_DOC         1982
+#define STR_P_LEFT                              1983
+#define STR_P_RIGHT                             1984 
+#define STR_UPDATE_MENU_TOOLBAR                 1985
+#define STR_CONVERT_WORD6_95_TO_CURRENT_WORD_VERSION             1986
+#define STR_REG_PREF_PATH                       1987
+#define STR_VALUE                               1988
+ 
+
+#define TXT_CANCEL_CHECKOUT1	       	        2001
+#define TXT_CANCEL_CHECKOUT2		        2002
+#define TXT_CANNOT_CONVERT_STRING               2003
+#define TXT_NO_THIS_VALUE                       2004
+#define TXT_ALWAYS                              2005
+#define TXT_NEVER                               2006
+#define TXT_PROMPTUSER                          2007
+#define TXT_INSERT                              2008
+#define TXT_OPEN                                2009
+
+//===================
+STRINGTABLE DISCARDABLE
+BEGIN
+
+ADD_FN_DOC,                                     "Add FileNet Documents"
+
+READ_ONLY,					"[Read Only]"
+
+DEFAULT,			                "(Default)"
+DEFAULT_PATH,			                "DefaultPath"
+DOC_PATH,			                "DOC-PATH"
+DLG_ERR_EXCEL_DEL_PROP, 			"FileNet Error in  ExcelDeleteProp"
+DLG_ERR_EXCEL_GET_PROP,				"FileNet Error in  ExcelGetProp"
+DLG_ERR_EXCEL_INSERT_PROP, 	                "FileNet Error in ExcelInsertProp"
+DLG_ERR_EXCEL_UPDATE_PROP, 	                "FileNet Error in ExcelUpdateProp"
+DLG_ERR_FRMPROPMGR_CMDINSERT,			"FileNet error in frmPropertyMgr:cmdInsert"
+DLG_ERR_FRMPROPMGR_CMDREPLACE_CLICK,		"FileNet error in frmPropertyMgr:cmdReplace_Click"
+DLG_ERR_FRMPROPMGR_CMDGOTO_CLICK, 		"FileNet error in frmPropertyMgr:cmdGoto_Click"
+DLG_ERR_FRMPROPMGR_EXCEL_SUMMARY,		"FileNet error in frmPropertyMgr:ExcelSummaryInfo"
+DLG_ERR_FRMPROPMGR_REMOVE_ENTRY, 		"FileNet error in frmPropertyMgr:RemoveGridEntry"
+DLG_ERR_FRMPROPMGR_WORD_SUMMARY, 		"FileNet error in frmPropertyMgr:WordSummaryInfo"
+DLG_ERR_GET_DOC_STATUS, 			"FileNet error in GetDocStatus"
+DLG_ERR_GET_OBJECT, 		                "FileNet Error in GetDocObject"
+DLG_ERR_GET_PROP_PROP, 				"FileNet Error in  GetPRopValue"
+DLG_ERR_GOTO_PROP, 				"FileNet Error in  GotoProp"
+DLG_ERR_INBOOKMARK,				"FileNet error in InBookmark"
+DLG_ERR_INSERT_PROP, 				"FileNet Error in  InsertMezzProp"
+DLG_ERR_REPLACE_PROP, 				"FileNet Error in  ReplaceProp"
+DLG_ERR_SHOW_PROP,				"FileNet Properties" //"FileNet ShowProperties"
+DLG_ERR_SHOW_PROP_MGR,		                "FileNet error in ShowPropertyMgr"
+DLG_ERR_SHOWPROP, 				"FileNet Show Properties"
+DLG_ERR_WORD_DEL_PROP , 			"FileNet Error in  WordDeleteProp"
+DLG_ERR_WORD_GET_PROP, 				"FileNet Error in WordGetProp"
+DLG_ERR_WORD_GOTO_PROP,				"FileNet Error in  WordGotoProperty"
+DLG_ERR_WORD_INSERT_PROP,	                "FileNet Error in WordInsertProp"
+DLG_ERR_WORD_UPDATE_PROP, 	                "FileNet Error in WordUpdateProp"
+DLG_ERROR_TITLE,     	                        "FileNet Error"
+DLG_PRINT,			                "FileNet Print" 
+DLG_SAVE_TO_LOCAL_DRIVE,                        "FileNet Save to local file"
+DLG_ERR_PAGE_ZERO,				"The first page must be greater than 0."
+DLG_ERR_PAGE_FIRST, 				"The first page must be less then or equal to the last page"
+DLG_ERR_PAGE_LAST,				"The last page must be less than the maximum number of pages"
+DLG_WARNING,                                     "FileNet Warning"
+        
+EXT_WORD,                                        "doc"
+EXT_EXCEL,                                       "xls"
+EXT_PP,                                          "ppt"
+
+EXT_WORD0,                                       "Text Files (*.txt)"
+EXT_WORD1,					"All Files (*.*)"
+EXT_WORD2,					"Word Documents (*.doc)"
+EXT_WORD3,					"Document Templates (*.dot)"
+EXT_WORD4,					 "Rich Text Format (*.rtf)"
+EXT_WORD5,					"Text Files/Unicode Text Files (*.txt)"
+EXT_WORD6,					"Lotus 1-2-3 (*.wk1;*.wk3;*.wk4)"
+EXT_WORD7,					"MS-Doc Text with Layout (*.asc)"
+EXT_WORD8,					"Personal Address Book (*.pab)"
+EXT_WORD9,					"Outlook Address Book (*.olk)"
+EXT_WORD10,					"Schedule + Contacts (*.scd)"
+EXT_WORD11,					"Text with Layout (*.ans)"
+EXT_WORD12,					"HTML Document (*.htm;*.html;*.htx*)"
+EXT_WORD13,					"Microsoft Excel Worksheet (*.xls;*.xlw)"
+EXT_WORD14,					"Word 4.0-5.1 for Macintosh (*.mcw)"
+EXT_WORD15,					"Works 3.0-4.0 for Windows (*.wps)"
+EXT_WORD16,					"WordPerfect 6.x (*.doc;*.wpd)"
+EXT_WORD17,					"WordPerfect 5.x (*.doc)"
+
+EXT_EXCEL1,					"All Files (*.*)"
+EXT_EXCEL2,					"Microsoft Excel Files (*.xls;*.xla)"
+EXT_EXCEL3,					"Text Files (*.prn;*.txt;*.csv)"
+EXT_EXCEL4,					 "Lotus 1-2-3 Files (*.wk1;*.wk3;*.wk4)"
+EXT_EXCEL5,					"Quatro Pro/Dos Files (*.wq1)"
+EXT_EXCEL6,					"Microsoft Works 2.0 Files (*.wks)"
+EXT_EXCEL7,					"dBase Files (*.dbf)"
+EXT_EXCEL8,					"Microsoft Excel 4.0 Macros (*.xlm;*.xla)"
+EXT_EXCEL9,					"Microsoft Excel 4.0 Charts (*.xlc)"
+EXT_EXCEL10,					"Microsoft Excel 4.0 Workbooks (*.xlw)"
+EXT_EXCEL11,					"Worksheets (*.xls)"
+EXT_EXCEL12,					"Workspace (*.xlw)"
+EXT_EXCEL13,					"Templates (*.xlt)"
+EXT_EXCEL14,					"Add-Ins (*.xla;*.xll)"
+EXT_EXCEL15,					"Toolbars (*.xlb)"
+EXT_EXCEL16,					"SYLK Files (*.slk)"
+EXT_EXCEL17,					"Data Interchange Format (*.dif)"
+EXT_EXCEL18,	                                "Backup Files (*.xlk;*.bak)"
+EXT_EXCEL19,	                                "HTML Documents (*.html;*.htm)"
+
+EXT_PP1,					"All Files (*.*)"
+EXT_PP2,					"Presentations and Shows (*.ppt;*.pps)"
+EXT_PP3,					"Presentation Templates (*.pot)"
+EXT_PP4,					"All Outlines (*.txt;*.rtf;*.doc;*.wpd;*.dot;*.xls;*.xlw;*.htm;*.html;*.htx;*.otm)"
+EXT_PP5,					"HTML Documents (*.html;*.htm;*.htx;*.otm)"
+EXT_PP6,					"PowerPoint Add-Ins (*.ppa)"
+
+FILTER_ALL_FILE,                                 "|All Files (*.*)|*.*"
+
+FILTER_WORD_FILTER1,                    	 "Word Documents (*.doc)|*.doc"
+FILTER_WORD_FILTER2,                    	 "|Document Templates (*.dot)|*.dot"
+FILTER_WORD_FILTER3,                    	 "|Rich Text Format (*.rtf)|*.rtf"
+FILTER_WORD_FILTER4,                   		  "|Text Files (*.txt)|*.txt"
+
+FILTER_EXCEL_FILTER1,                  		   "Microsoft Excel Files (*.xls)|*.xls"
+FILTER_EXCEL_FILTER2,                  		  "|Formatted Text (*.prn)|*.prn"
+FILTER_EXCEL_FILTER3,                  		  "|Text Files (*.txt)|*.txt"
+FILTER_EXCEL_FILTER4,                  		  "|Text Files (*.csv)|*.csv"
+FILTER_EXCEL_FILTER5,                  		  "|Microsoft Works 2.0 Files (*.wks)|*.wks"
+FILTER_EXCEL_FILTER6,                              "|HTML Documents (*.htm)|*.htm"
+FILTER_EXCEL_FILTER7,                             "|Microsoft Excel Addin (*.xla)"
+
+FILTER_WORDPPO_FILTER1,               		  "Word Documents (*.doc)|*.doc"
+FILTER_WORDPPO_FILTER2,              		  "|Document Templates (*.dot)|*.dot"
+FILTER_WORDPPO_FILTER3,                		  "|Rich Text Format (*.rtf)|*.rtf"
+FILTER_WORDPPO_FILTER4,                		  "|Text Files (*.txt)|*.txt"
+
+
+IDM_GRID_HEADER,				"^Property Name  |^Property Value |^Property Location                      " 
+IDM_PROP_BODY,                    		"Body of Document" 
+IDM_PROP_FOOTER_EVEN_PAGE,        	        "Even Page Footer"
+IDM_PROP_FOOTER_FIRST_PAGE,       	        "First Page Footer"
+IDM_PROP_FOOTER_ODD_PAGE,         	        "Odd Page Footer"
+IDM_PROP_HEADER_EVEN_PAGE,        	        "Even Page Header"
+IDM_PROP_HEADER_FIRST_PAGE,       	        "First Page Header"
+IDM_PROP_HEADER_ODD_PAGE,        	        "Odd Page Header"
+IDM_QUESTION_MARK,				"?"
+IDM_SEPARATOR,					 "_"
+IDM_SPACE,					" "
+IDM_TAG, 					"IDM"
+IDM_UPDATE_MENU,                                "FileNet IDMUpdateMenu"
+IDM_WORD_TEMPLATE_FILENAME, 	 	        "idmword8.dot"
+INSERT_FN_ATTACHMENT,                           "FileNet Insert Attachment" 
+INSERT_FN_FILE,                                 "FileNet Insert File"
+
+LOCAL_CHECKOUT,                                 "Local checkout"
+LOCAL_COPIES,			                "Local copies"
+
+MNU_FN_ADD,			                "Add..."
+MNU_FN_CHECKIN,		                        "Checkin..."
+MNU_FN_OPEN, 			                "Open..."
+MNU_FN_PREFERENCES,                             "Preferences"
+MNU_FN_PROPERTIES,                              "Properties"
+MNU_FN_SAVE,			                "Save..."
+MNU_FN_SHOW,			                "Show Properties..."
+MNU_INSERT_FILE,                                "Insert File..."
+MNU_INSERT_MEZZ_PROP,		                "Insert Properties"   
+MNU_SAVEAS,			                "Save &As..."
+MNU_UPDATE_MEZZ_PROP,                           "Update Properties"  
+
+MSG_ADD,                                        "FileNet Add"
+MSG_CANCEL_CHECKOUT,		                "FileNet Cancel Checkout"
+MSG_CANNOT_CHECKOUT,	                        "Can not Checkout "
+MSG_CANNOT_CREATE_CMNDIALOG,	                "Cannot create CommonDialogs."
+MSG_CANNOT_CREATE_DOC,		                "Cannot create Document object."
+MSG_CANNOT_CREATE_ERRMGR,	                "Cannot create ErrorManager."
+MSG_CANNOT_CREATE_LIBRARY,                      "Cannot create Library object."
+MSG_CANNOT_GET_PROP_OBJECT, 			"Can not get the Property Object"
+MSG_CANNOT_GET_PROPERTY,	                "Cannot get Property from Document."
+MSG_CANNOT_GET_VERSION,		                "Cannot get Version from Document."
+MSG_CHECK_PROP_MGR,                             "Check Property manger stastus"
+MSG_CHECK_SDM_STRING,                           "Check SDM string"
+MSG_CHECKIN,			                "FileNet Checkin"
+MSG_CLOSE,                                      "FileNet Close"
+MSG_CONFIRM_DELETE,                             "Confirm Delete"
+MSG_CONFIRM_REPLACE,				"Confirm Replace Property"
+MSG_CONVERSION,                                 "SDM to IDM Conversion"
+MSG_COPY_TO_CLIPBOARD,                          "FileNet copyPicToClipboard"
+
+MSG_DELETE_PROP,		                "Are you sure you want to delete property "
+MSG_DELETE_MEZZ_PROP_EXCELL,	                "FileNet DeleteMezzPropertyExcel"
+MSG_DELETE_PROP_WORD,  		                "FileNet DeletePropertyWord"
+
+MSG_DO_YOU_WANT_TO_CONVERT_SDM_TO_IDM,          "Do you want to convert the SDM property name to an IDM name?"
+MSG_DO_YOU_WANT_TO_PRINT_FILE,                  "Do you want to print the file? "
+MSG_DO_YOU_WANT_TO_UPDATE_PROPERTIES,           "Do you want to update properties? "
+
+MSG_ERR_MANAGER_NOT_INITIALIZED,                "An error occured without the error manager being initialized."
+MSG_ERROR_IN_GET_BOOKMARKS_EXCELL,              "FileNet error in getBookmarksExcel"
+MSG_ERROR_IN_GET_BOOKMARKS_WORD,                "FileNet error in getBookmarksWord"
+MSG_ERROR_IN_SHOW_PROPERTY_MGR,                 "FileNet error in ShowPropertyMgr"
+MSG_ERROR_IN_WORD_UPDATE_PROP,                  "FileNet error in WordUpdateProperties"
+MSG_ERROR_WITHOUT_ERRMGR,	                "An error occured without the error manager being initialized."
+
+MSG_FILE_ADD_CHECKEDOUT,	                "The FileNet Add process has been stopped. The filename  "     //" is currently checked out. Please use SaveAs and rename the file before adding."
+MSG_FILE_EXISTS_OVERWRITE, 	                " File Exists! Do you wish to overwrite?"
+MSG_FILE_NOT_CHECKOUT,                          "There is no active presentation." //"No active file" "A file is not checked out"
+MSG_FILE_NOT_EXIST,                             "There is no active presentation." //"No active file" 
+MSG_FILE_OPEN_OVERWRITE,	                " is currently open. Do you want to overwrite?"
+MSG_FILE_OPENPPT_OVERWRITE,	                " is currently open. Please close it before opening new version."
+MSG_FILE_SAVE_CHANGES,		                "Do you want to save changes you made to '"
+MSG_FILE_SAVEAS_CHECKEDOUT,	                " filename is already being used by a checked out document.  To complete the process it is necessary to rename your file.  Select OK to rename the file or Cancel to stop the process."    //" is currently checked out. It cannot be overwritten."
+MSG_FILE_SAVEAS_OVERWRITE,	                " is currently open. It Cannot be overwritten."
+MSG_FILECHECKIN,	                        "FileNet Checkin"//"FileNet File Checkin"
+MSG_FILENET,                                    "FileNet"
+MSG_FILENETSAVE,	                        "FileNet Save" //"FileNet FileNetSave"
+
+MSG_GET_ACTIVE_FILE,                            "Get an active file"
+MSG_GET_DOC_PATH, 		   		"FileNet GetFilePath"
+MSG_GET_DOC_STATUS,                             "FileNet GetDocStatus"
+MSG_GET_PROP_LABEL,                             "FileNet GetPropLabel"
+MSG_GET_UNIQUE_NUMBER,                          "Get an unique number"
+MSG_GOTO_BOOKMARK,		                "FileNet GotoBookMark"
+
+MSG_IN_CELL,					" in Cell "
+MSG_IN_SECTION, 				" in Section "
+MSG_INSERT_MEZZ_PROP,		                "FileNet InsertMezzProperties"
+MSG_INSERT_MEZZ_PROP_EXCELL,	                "FileNet InsertMezzPropertyExcel"
+MSG_INSERT_POINT_ALREADY_PROPERTY,		"A property is already inserted at this location.  Please select another location or perform a Replace action."
+MSG_INSERT_PROP,		                "FileNet Insert Property"
+MSG_INSERT_PROPERTIES,		   		"Insert FileNet Properties"
+MSG_INSERT_WORD_BOOKMARK,	                "FileNet InsertWordBookMark"
+MSG_IS_DOC_CHECKEDOUT,		                "FileNet IsDocCheckedOut"
+MSG_KEEP_LOCAL_COPY,                            "Do you want to keep the local copy '"
+MSG_LOAD_IDM_STRING,                            "Load an IDM string"
+MSG_MUST_ADD_FIRST,				"Before any IDM DS Properties can be inserted into this document it needs to be added to a Library.  Do you want to perform a FileNet Save?"   
+MSG_NO_DOC,	                                "Cannot get Document from TrackedFile."
+MSG_NOT_A_CHECHEDOUT_DOC, 	                "This isn't a checked out document"
+MSG_NOT_A_CHECKEDOUT_FILE,                      " is not a checked-out file"
+MSG_NOT_CHECKED_OUT,				" is not a checked-out file"
+MSG_NOT_CHECKOUT,                               " is not checked out"
+MSG_ON_PAGE, 					" on Page "
+MSG_OPEN,			                "FileNet Open"
+MSG_OPEN_DOC_NOT_SUPPORT,                       "Open document for viewing not supported in thie release."
+MSG_OPEN_METHOD_FAILED,                         "Open method of Workbooks class failed"   
+MSG_PREFERENCES,		   		"FileNet Preferences"
+MSG_PRINT,                                      "FileNet Print"
+
+MSG_SAVE,                                       "FileNet Save"
+MSG_SAVEAS,                                     "FileNet Save" //"FileNet SaveAs"
+MSG_SHOW_PROP,                                  "FileNet Show Properties"
+MSG_SHOW_PROPERTY_MGR,		                "FileNet Properties"  //ShowPropertyMgr
+MSG_SHOW_TOOLBAR,                               "FileNet ShowToolbar"
+MSG_UPDATE_PROP,                                "Update property"
+MSG_UPDATE_PROP_GRID,                           "PUT STRING IN LAGER"   
+MSG_UPDATE_PROPERTIES,		   		"Update FileNet Properties"
+MSG_WITH,					"With:"
+MSG_OPERATION_NOT_DEFINED,                      "This operation is not designed to function from this location"
+MNU_FN_HELP,                                    "Help Topics" 
+MSG_POWERPOINT_BLOCK,                            "You must add or check in PowerPoint97 compound documents from the FileNet Neighborhood"
+MSG_RETURN,                                      "Return"
+MSG_PRESENTATION,                                "The Presentation "
+MSG_CONTAINSLINKS,                               " contains links. Do you want to update now?" 
+MSG_CAN_NOT_INSERT_COMP_DOC,                     "Can not insert a compound document into a file"  
+MSG_INSUFFICIENT_RIGHT,                          "The document cannot be retrieved because you have insufficent access rights."  
+
+MSG_FILE_PATH_AND_NAME_TOO_LONG,                 " The file path and name are too long! "
+MSG_FILE_NAME_CANNOT_CONTAIN_CHARACTER,          "A file name can not contain the following character(s) : "
+MSG_DELETE_CHARACTER,                            "Would you like to remove the character(s)?"
+MSG_CANOT_COPY_DOC,                              "A file can not been copied out!" 
+MSG_FILE_ADD_CHECKEDOUT1,                        " was being used by a currently checked out document and was overwritten. Caution: Using the FileNet Checkin functionality, this document can be checked into an existing version line." //By closing and reopening, the FileNet Checkin functionality will be enabled and this document could be Checked into an existing version line."
+MSG_FILE_ADD_CHECKEDOUT2,                        " is being used by a currently checked out document." //  and was overwritten. To complete the add, use Save As and rename the document, then restart the add process."
+MSG_WOULD_YOU_LIKE_TO_CONTINE_ADD,               "Would you like to continue to add the document? "
+MSG_DOCID,                                       "Document ID: "
+MSG_LIBRARY,                                     "Library: "
+MSG_FILENAME,                                    "Filename: "
+MSG_THE_CHECKEDOUT_FILE_INFO,                     "The checked out file: "
+MSG_WOULD_YOU_LIKE_TO_CANCEL_CHECKOUT,            "Would you like to cancel the checkout? "
+MSG_CLIPBOARD, 					  "There is information in the Clipboard, please save the information, then click OK to continue the application !" 
+
+OPEN_FN_DOC,                                    "Open FileNet Documents"
+OPTIONS_DIALOG_ADD_TITLE, 	                "FileNet Add"
+OPTIONS_DIALOG_CHECKIN_TITLE,	                "FileNet Checkin"
+OPTIONS_DIALOG_SHOW_PROPS,	                "FileNet Show Properties"
+OPTIONS_GET_DOC_OBJECT,                         "FileNet GetDocObject"
+
+PERSONAL,			                "Personal"
+PROMPT_REPLACE_PROPERTY,			"Replace Property:"
+PROMPT_DELETE_PROPERTY,				"Are you sure you want to delete property " 
+PRINTER_NOT_INSTALL,                            "Printers are not installed !!"
+
+REG_KEY_DEFAULT_LOCATION,                       "Software\FileNet\IDM\Default_Location"
+REG_KEY_EXCELL,                                 "Software\Microsoft\Office\8.0\Excel\Microsoft Excel"
+REG_KEY_POWERPOINT,                             "Software\Microsoft\Office\8.0\PowerPoint\Recent Folder List\Default"
+REG_KEY_SHELL_FOLDER,                           "Software\Microsoft\Windows\CurrentVersion\Explorer\Shell Folders"
+REG_KEY_WORD,			                "Software\Microsoft\Office\8.0\Word\Options"
+
+SDM_N_TAG,					"N"
+SDM_TAG	,					"MEZZ"
+STR_ADD_CHECKIN_RETRIEVE,                       "AddCheckinRetrieve"
+STR_APP_INTEGRATION,                            "ApplicationIntegration"
+STR_CAN_NOT_BE_CONVERT,                         " can not be converted to an idm bookmark name !" 
+STR_CHECKEDOUT,					"- IDM Checkout"
+STR_COPIED,                                     "- IDM Copy"
+STR_DCDC,                                       "DetermineCD"
+STR_DOCUMENT,                                   "Documents"
+STR_EXCEL_INTEGRATION,                          "ExcelIntegration"
+STR_OUTLOOK_INTEGRATION,                        "OutlookIntegration"
+STR_PP_INTEGRATION,                             "PowerPointIntegration"
+STR_PP_FILTER1,                                 "Presentation (*.ppt)|*.ppt"
+STR_PP_FILTER2,                                 "|Outline/RTF (*.rtf)|*.rtf"
+STR_PP_FILTER3,                                 "|Presentation Template (*.pot)|*.pot"
+STR_PP_FILTER4,                                 "|Power Point Show (*.pps)|*.pps"
+STR_PP_FILTER5,                                 "|Power Point 95 & 97 Presentation *.ppt|*.ppt"
+STR_PP_FILTER6,                                 "|Power Point 95 (*.ppt)|*.ppt"
+STR_PP_FILTER7,                                 "|Power Point 4.0 (*.ppt)|*.ppt"
+STR_PP_FILTER8,                                 "|Power Point 3.0 (*.ppt)|*.ppt"
+STR_PP_FILTER9,                                 "|Power Point Add-In (*.ppa)|*.ppa"
+STR_SET_DOC_TITLE_TO_FILENAME,                  "SetDocTitleToFileName"
+STR_SHOW_DOC_STATUS,                            "ShowDocStatus"
+STR_SHOW_TOOLBAR,                               "ShowToolBar"
+STR_THE_BOOKMARK,                               "The bookmark " 
+STR_UPDATE_ENBEDDED_PROP,                       "UpgradeEmbeddedProps"
+STR_UPDATE_PROP_AFTER_CHECKOUT,                 "UpdatePropsAfterCheckout"
+STR_UPDATE_PROP_BEFORE_CHECKIN,                 "UpdatePropsBeforeCheckin"
+STR_UPDATE_PROPERTIES,                          "UpdateProperties"
+STR_WORD_INTEGRATION,                           "WordIntegration"
+STR_PRT_SAVE_ADD,                        	"PromptSaveBeforeAdd"
+STR_PRT_SAVE_CHECKIN,                    	"PromptSaveBeforeCheckin"
+STR_SDCDC,                                      "ShowDetermineCD"
+STR_DIRECTORIES_AND_FILES,                      "DirectoriesAndFiles" 
+STR_LOCAL_CACHING,                              "LocalCaching"
+STR_CACHE_DIRECTORY,                            "CacheDir"
+STR_KEEP_LOCAL_COPY,                            "KeepLocalCopy"
+STR_SHOW_KEEP_LOCAL_COPY,                       "ShowKeepLocalCopy"
+STR_WARNING,                                    "FileNet Warning"
+STR_HELP_FILE,	                                "idmdsktp.hlp"
+STR_FN_HELP,                                    "FileNet Help"
+STR_PATH_DOES_NOT_EXIST,                         "Path does not exist."
+STR_VERIFY_PATH,                                "Please verify the correct path was given"
+STR_CHECK_OR_COPY_TO,                           "Checkout or Copy File To"
+STR_FOLDER_REQ_WHEN_ADD,                        "FolderReqWhenAdd"
+STR_CHECKIN_LINK,                               "Checkin and Link"
+STR_EXTERNAL_DOC,                               "External Document"
+STR_Mezzanine_Installed,                        "Mezzanine_Installed"
+STR_SubKey_IDM_Install,                         "SOFTWARE\FileNet\IDM\Install"
+STR_CHECKIN,                                     "Checkin"
+STR_ADD,                                         "Add"
+STR_ADD_LINK,                                    "Add and Link"
+STR_FNI,                                         ".fni"
+STR_DIALOG,                                      "Dialog"
+STR_MEZZ,					 "Mezz_"
+STR_IDM,					 "IDM_"
+STR_COPYDIR,					 "CopyDir"
+STR_CHECKOUTDIR,                                 "CheckoutDir"
+STR_PRINT_DOC_ON_ADD,                            "PrintDocOnAdd"
+STR_IN,						 " in "
+STR_MODIFY_CONTROLS,				 "Modify Controls"
+STR_CHECKOUTS_AND_COPIES,                        "CheckoutsAndCopies"
+STR_OTHER,                                       "Other"
+STR_LOCALDB,                                     "LocalDb"
+STR_LOCALDB_KEY,                                 "LocalDbKey"
+STR_INDEX_OUT_RANGE,                             "The index is out of range."
+STR_PPT,					 ".ppt"
+STR_POWERPOINT,					 "powerpoint"
+STR_BUTTON,                                      "Buttons"
+STR_TOOLBAR_BUTTON_FACE,                         "Toolbar Button Face"
+STR_TOOLBAR_BUTTON_MASK,                         "Toolbar Button Mask"
+STR_ALLFILES,					 "All Files (*.*)|*.*"
+STR_WORD,					 "word"
+STR_WORD_APPLICATION,                            "Word.Application"
+STR_CACHE,		              		 "Cache"
+STR_MS_WORD,					 "Microsoft Word"
+STR_REPLICA,                                     "This is a replica, you can not save a replica to a library!"   
+STR_TOOLBAR_BUTTON_MASK_97,                      "Toolbar Button Mask"
+STR_TOOLBAR_BUTTON_MASK_2000,                    "Toolbar Button Mask"
+STR_TOOLBAR_BUTTON_FACE_97,                      "Toolbar Button Face"
+STR_TOOLBAR_BUTTON_FACE_2000,                    "Toolbar Button Face"
+STR_DO_YOU_WANT_TO_SAVE_THE_DOC,                 "Do you want to save the file? "
+STR_P_LEFT,                                      "("
+STR_P_RIGHT,                                     ")"
+STR_UPDATE_MENU_TOOLBAR,                         "UpdateMenuToolbar"
+STR_CONVERT_WORD6_95_TO_CURRENT_WORD_VERSION,    "ConvertWord6/95FormatToCurrentWordFormat"
+STR_REG_PREF_PATH,                               "Software\FileNet\IDM\Preferences"
+STR_VALUE,                                       "Value"
+
+TXT_CANCEL_CHECKOUT1,		                "Cancel Checkout"
+TXT_CANCEL_CHECKOUT2,		                "Cancel Checkout"
+TXT_CANNOT_CONVERT_STRING,                      "Can not convert the string!!"
+TXT_NO_THIS_VALUE,                              "Current DocClass does not support this property " //"The value does not exist!!"
+TXT_ALWAYS,                                     "ALWAYS"
+TXT_NEVER,                                      "NEVER"
+TXT_PROMPTUSER,                                 "PROMPTUSER"
+TXT_INSERT,                                     "Insert"
+TXT_OPEN,                                       "&Open"
+
+END
+// END OF PART 1
+//===============================================================================================
+//===============================================================================================
+// PART 2. Strings for Converting  SDM to IDM (ID Number Range 257----600)
+//===============================================================================================
+#define SPI_ITEM_ID                    257   /* SPI_OBJ_ITEM + 1; Item ID */
+#define SPI_ITEM_OWNER                 258   /* SPI_OBJ_ITEM + 2; Profile Originator */
+#define SPI_ITEM_GROUP                 259   /* SPI_OBJ_ITEM + 3; Profile Originator's Group */
+#define SPI_ITEM_CREATE_DATE           260   /* SPI_OBJ_ITEM + 4; Date Added */
+#define SPI_ITEM_COMMENT               261   /* SPI_OBJ_ITEM + 5; Comment */
+#define SPI_ITEM_PROTECTED             262   /* SPI_OBJ_ITEM + 6; Protected? */
+#define SPI_ITEM_ORIGINAL_FILE         263   /* SPI_OBJ_ITEM + 7; Original File Name */
+#define SPI_ITEM_FILE_CATEGORY         264   /* SPI_OBJ_ITEM + 8; File Category */
+#define SPI_ITEM_CURVER_TRUNC_FILE     265   /* SPI_OBJ_ITEM + 9; Default File Name */
+#define SPI_ITEM_VARIANTS              266   /* SPI_OBJ_ITEM +10; Allow Secondary Version Lines? */
+#define SPI_ITEM_ONLINE_LIMIT          267   /* SPI_OBJ_ITEM +11; On-line Limit */
+#define SPI_ITEM_DISP_CATEGORY         268   /* SPI_OBJ_ITEM +12; Disposition Category */
+#define SPI_ITEM_CURVER_NUM            269   /* SPI_OBJ_ITEM +13; Current Version ID */
+#define SPI_ITEM_CURVER_DATE           270   /* SPI_OBJ_ITEM +14; Current Version Date */
+#define SPI_ITEM_CURVER_AUTHOR         271   /* SPI_OBJ_ITEM +15; Current Version Author */
+#define SPI_ITEM_ONLINE_COUNT          272   /* SPI_OBJ_ITEM +16; On-line Version Count */
+#define SPI_ITEM_ONLINE_SIZE           273   /* SPI_OBJ_ITEM +17; On-line Disk Space */
+#define SPI_ITEM_LAST_DATE             274   /* SPI_OBJ_ITEM +18; Last Access Date */
+#define SPI_ITEM_LAST_VERSION_ID       275   /* SPI_OBJ_ITEM +19; Last Accessed Version */
+#define SPI_ITEM_CURVER_CHECKED_OUT    276   /* SPI_OBJ_ITEM +20; Current Version Checked Out? */
+#define SPI_ITEM_ICON_TITLE            277   /* SPI_OBJ_ITEM +21; Title */
+#define SPI_ITEM_KEYWORDS              278   /* SPI_OBJ_ITEM +22; Keyword */
+// #define SPI_ITEM_VERSIONS              279   /* SPI_OBJ_ITEM +23; Versions */
+// #define SPI_ITEM_CHECKOUTS             280   /* SPI_OBJ_ITEM +24; Versions Checked Out */
+#define SPI_ITEM_ACL                   281   /* SPI_OBJ_ITEM +25; Access List */
+#define SPI_ITEM_CUSTOM01              282   /* SPI_OBJ_ITEM +26; Custom 1 */
+#define SPI_ITEM_CUSTOM02              283   /* SPI_OBJ_ITEM +27; Custom 2 */
+#define SPI_ITEM_CUSTOM03              284   /* SPI_OBJ_ITEM +28; Custom 3 */
+#define SPI_ITEM_CUSTOM04              285   /* SPI_OBJ_ITEM +29; Custom 4 */
+#define SPI_ITEM_CUSTOM05              286   /* SPI_OBJ_ITEM +30; Custom 5 */
+#define SPI_ITEM_CUSTOM06              287   /* SPI_OBJ_ITEM +31; Custom 6 */
+#define SPI_ITEM_CUSTOM07              288   /* SPI_OBJ_ITEM +32; Custom 7 */
+#define SPI_ITEM_CUSTOM08              289   /* SPI_OBJ_ITEM +33; Custom 8 */
+#define SPI_ITEM_CUSTOM09              290   /* SPI_OBJ_ITEM +34; Custom 9 */
+#define SPI_ITEM_CUSTOM10              291   /* SPI_OBJ_ITEM +35; Custom 10 */
+#define SPI_ITEM_CUSTOM11              292   /* SPI_OBJ_ITEM +36; Custom 11 */
+#define SPI_ITEM_CUSTOM12              293   /* SPI_OBJ_ITEM +37; Custom 12 */
+#define SPI_ITEM_CUSTOM13              294   /* SPI_OBJ_ITEM +38; Custom 13 */
+#define SPI_ITEM_CUSTOM14              295   /* SPI_OBJ_ITEM +39; Custom 14 */
+#define SPI_ITEM_CUSTOM15              296   /* SPI_OBJ_ITEM +40; Custom 15 */
+#define SPI_ITEM_CUSTOM16              297   /* SPI_OBJ_ITEM +41; Custom 16 */
+#define SPI_ITEM_CUSTOM17              298   /* SPI_OBJ_ITEM +42; Custom 17 */
+#define SPI_ITEM_CUSTOM18              299   /* SPI_OBJ_ITEM +43; Custom 18 */
+#define SPI_ITEM_CUSTOM19              300   /* SPI_OBJ_ITEM +44; Custom 19 */
+#define SPI_ITEM_CUSTOM20              301   /* SPI_OBJ_ITEM +45; Custom 20 */
+#define SPI_ITEM_CURVER_CSI_ID         302   /* SPI_OBJ_ITEM +46; Current Version Index */
+#define SPI_ITEM_CURVER_CSI_CID        303   /* SPI_OBJ_ITEM +47; Current Version Index ID */
+#define SPI_ITEM_CSI_DEFAULT           304   /* SPI_OBJ_ITEM +48; Default Index Versions? */
+#define SPI_ITEM_CSI_COUNT             305   /* SPI_OBJ_ITEM +49; Number of Indexed Versions */
+#define SPI_ITEM_CSI_LIMIT             306   /* SPI_OBJ_ITEM +50; Indexed Version Limit */
+#define SPI_ITEM_CUSTOM21              307   /* SPI_OBJ_ITEM +51; Custom 21 */
+#define SPI_ITEM_CUSTOM22              308   /* SPI_OBJ_ITEM +52; Custom 22 */
+#define SPI_ITEM_CUSTOM23              309   /* SPI_OBJ_ITEM +53; Custom 23 */
+#define SPI_ITEM_CUSTOM24              310   /* SPI_OBJ_ITEM +54; Custom 24 */
+#define SPI_ITEM_CUSTOM25              311   /* SPI_OBJ_ITEM +55; Custom 25 */
+#define SPI_ITEM_CUSTOM26              312   /* SPI_OBJ_ITEM +56; Custom 26 */
+#define SPI_ITEM_CUSTOM27              313   /* SPI_OBJ_ITEM +57; Custom 27 */
+#define SPI_ITEM_CUSTOM28              314   /* SPI_OBJ_ITEM +58; Custom 28 */
+#define SPI_ITEM_CUSTOM29              315   /* SPI_OBJ_ITEM +59; Custom 29 */
+#define SPI_ITEM_CUSTOM30              316   /* SPI_OBJ_ITEM +60; Custom 30 */
+#define SPI_ITEM_CUSTOM31              317   /* SPI_OBJ_ITEM +61; Custom 31 */
+#define SPI_ITEM_CUSTOM32              318   /* SPI_OBJ_ITEM +62; Custom 32 */
+#define SPI_ITEM_CUSTOM33              319   /* SPI_OBJ_ITEM +63; Custom 33 */
+#define SPI_ITEM_CUSTOM34              320   /* SPI_OBJ_ITEM +64; Custom 34 */
+#define SPI_ITEM_CUSTOM35              321   /* SPI_OBJ_ITEM +65; Custom 35 */
+#define SPI_ITEM_CUSTOM36              322   /* SPI_OBJ_ITEM +66; Custom 36 */
+#define SPI_ITEM_CUSTOM37              323   /* SPI_OBJ_ITEM +67; Custom 37 */
+#define SPI_ITEM_CUSTOM38              324   /* SPI_OBJ_ITEM +68; Custom 38 */
+#define SPI_ITEM_CUSTOM39              325   /* SPI_OBJ_ITEM +69; Custom 39 */
+#define SPI_ITEM_CUSTOM40              326   /* SPI_OBJ_ITEM +70; Custom 40 */
+#define SPI_ITEM_MV_CUSTOM01           327   /* SPI_OBJ_ITEM +71; Multi-Value Custom 1 */
+#define SPI_ITEM_MV_CUSTOM02           328   /* SPI_OBJ_ITEM +72; Multi-Value Custom 2 */
+#define SPI_ITEM_MV_CUSTOM03           329   /* SPI_OBJ_ITEM +73; Multi-Value Custom 3 */
+#define SPI_ITEM_MV_CUSTOM04           330   /* SPI_OBJ_ITEM +74; Multi-Value Custom 4 */
+#define SPI_ITEM_MV_CUSTOM05           331   /* SPI_OBJ_ITEM +75; Multi-Value Custom 5 */
+#define SPI_ITEM_MV_CUSTOM06           332   /* SPI_OBJ_ITEM +76; Multi-Value Custom 6 */
+#define SPI_ITEM_MV_CUSTOM07           333   /* SPI_OBJ_ITEM +77; Multi-Value Custom 7 */
+#define SPI_ITEM_MV_CUSTOM08           334   /* SPI_OBJ_ITEM +78; Multi-Value Custom 8 */
+#define SPI_ITEM_MV_CUSTOM09           335   /* SPI_OBJ_ITEM +79; Multi-Value Custom 9 */
+#define SPI_ITEM_MV_CUSTOM10           336   /* SPI_OBJ_ITEM +80; Multi-Value Custom 10 */
+
+#define SPI_VERS_ID                    513   /* SPI_OBJ_VERSION + 1; Version ID */
+#define SPI_VERS_ITEM_ID               514   /* SPI_OBJ_VERSION + 2; Item ID */
+#define SPI_VERS_CHECKIN_USER          515   /* SPI_OBJ_VERSION + 3; Check-in User */
+#define SPI_VERS_CHECKIN_GROUP         516   /* SPI_OBJ_VERSION + 4; Check-in Group */
+#define SPI_VERS_CREATE_DATE           517   /* SPI_OBJ_VERSION + 5; Check-in Date */
+#define SPI_VERS_COMMENT               518   /* SPI_OBJ_VERSION + 6; Comment */
+#define SPI_VERS_APPLICATION           519   /* SPI_OBJ_VERSION + 7; Application */
+#define SPI_VERS_FILE_DATE             520   /* SPI_OBJ_VERSION + 8; Modification Date */
+#define SPI_VERS_FILE_SIZE             521   /* SPI_OBJ_VERSION + 9; File Size */
+#define SPI_VERS_SHELF_DATE            522   /* SPI_OBJ_VERSION +10; Shelf File Date */
+#define SPI_VERS_SHELF_ID              523   /* SPI_OBJ_VERSION +11; Shelf ID */
+#define SPI_VERS_SHELF_FILE_ID         524   /* SPI_OBJ_VERSION +12; Shelf File Name */
+#define SPI_VERS_LAST_DATE             525   /* SPI_OBJ_VERSION +13; Last Access Date */
+#define SPI_VERS_LAST_USER             526   /* SPI_OBJ_VERSION +14; Last Access User */
+#define SPI_VERS_LAST_GROUP            527   /* SPI_OBJ_VERSION +15; Last Access Group */
+#define SPI_VERS_AVAIL_STAT            528   /* SPI_OBJ_VERSION +16; Availability Status */
+#define SPI_VERS_DISP_ID               529   /* SPI_OBJ_VERSION +17; Disposition Shelf ID */
+#define SPI_VERS_DISP_DATE             530   /* SPI_OBJ_VERSION +18; Disposition Date */
+#define SPI_VERS_RECLAIM_PENDING       531   /* SPI_OBJ_VERSION +19; Reclaim Pending? */
+#define SPI_VERS_PERMANENT             532   /* SPI_OBJ_VERSION +20; Permanent Version? */
+#define SPI_VERS_CHECKOUT_PENDING      533   /* SPI_OBJ_VERSION +21; Checked Out? */
+#define SPI_VERS_MERGE_SRC             534   /* SPI_OBJ_VERSION +22; Merge-Source Version ID */
+#define SPI_VERS_MERGE_DST             535   /* SPI_OBJ_VERSION +23; Merge-Destination Version ID */
+#define SPI_VERS_BRANCH_COUNT          536   /* SPI_OBJ_VERSION +24; Secondary Version Line Count */
+#define SPI_VERS_BRANCH_CURVER         537   /* SPI_OBJ_VERSION +25; Latest Version? */
+#define SPI_VERS_RECLAIM_DATE          538   /* SPI_OBJ_VERSION +26; Reclaim Submitted Date */
+//#define SPI_VERS_CHECKOUT_USERS      539   /* SPI_OBJ_VERSION +27; Current Check-outs */
+#define SPI_VERS_B_I_ID_MAJOR          540   /* SPI_OBJ_VERSION +28; Incremental Backup Major Id */
+#define SPI_VERS_B_I_ID_MINOR          541   /* SPI_OBJ_VERSION +29; Incremental Backup Minor Id */
+#define SPI_VERS_CHECKOUT_DATE         542   /* SPI_OBJ_VERSION +30; Source Version Check-out Date */
+#define SPI_VERS_OFFLINE_LOCATION      543   /* SPI_OBJ_VERSION +31; Off-line Location */
+#define SPI_VERS_CSI_ID                544   /* SPI_OBJ_VERSION +32; Index */
+#define SPI_VERS_CSI_CID               545   /* SPI_OBJ_VERSION +33; Index ID */
+#define SPI_VERS_CSI_STATUS            546   /* SPI_OBJ_VERSION +34; Index Status */
+#define SPI_VERS_CSI_MAJOR             547   /* SPI_OBJ_VERSION +35; Index Backup Major ID */
+#define SPI_VERS_CSI_MINOR             548   /* SPI_OBJ_VERSION +36; Index Backup Minor ID */
+#define SPI_VERS_CSI_PERMANENT         549   /* SPI_OBJ_VERSION +37; Permanent Index? */
+#define SPI_VERS_CUSTOM01              550   /* SPI_OBJ_VERSION +38; Custom 1 */
+#define SPI_VERS_CUSTOM02              551   /* SPI_OBJ_VERSION +39; Custom 2 */
+#define SPI_VERS_CUSTOM03              552   /* SPI_OBJ_VERSION +40; Custom 3 */
+#define SPI_VERS_CUSTOM04              553   /* SPI_OBJ_VERSION +41; Custom 4 */
+#define SPI_VERS_CUSTOM05              554   /* SPI_OBJ_VERSION +42; Custom 5 */
+#define SPI_VERS_CUSTOM06              555   /* SPI_OBJ_VERSION +43; Custom 6 */
+#define SPI_VERS_CUSTOM07              556   /* SPI_OBJ_VERSION +44; Custom 7 */
+#define SPI_VERS_CUSTOM08              557   /* SPI_OBJ_VERSION +45; Custom 8 */
+#define SPI_VERS_CUSTOM09              558   /* SPI_OBJ_VERSION +46; Custom 9 */
+#define SPI_VERS_CUSTOM10              559   /* SPI_OBJ_VERSION +47; Custom 10 */
+#define SPI_VERS_CUSTOM11              560   /* SPI_OBJ_VERSION +48; Custom 11 */
+#define SPI_VERS_CUSTOM12              561   /* SPI_OBJ_VERSION +49; Custom 12 */
+#define SPI_VERS_CUSTOM13              562   /* SPI_OBJ_VERSION +50; Custom 13 */
+#define SPI_VERS_CUSTOM14              563   /* SPI_OBJ_VERSION +51; Custom 14 */
+#define SPI_VERS_CUSTOM15              564   /* SPI_OBJ_VERSION +52; Custom 15 */
+#define SPI_VERS_CUSTOM16              565   /* SPI_OBJ_VERSION +53; Custom 16 */
+#define SPI_VERS_CUSTOM17              566   /* SPI_OBJ_VERSION +54; Custom 17 */
+#define SPI_VERS_CUSTOM18              567   /* SPI_OBJ_VERSION +55; Custom 18 */
+#define SPI_VERS_CUSTOM19              568   /* SPI_OBJ_VERSION +56; Custom 19 */
+#define SPI_VERS_CUSTOM20              569   /* SPI_OBJ_VERSION +57; Custom 20 */
+#define SPI_VERS_CUSTOM21              570   /* SPI_OBJ_VERSION +58; Custom 21 */
+#define SPI_VERS_CUSTOM22              571   /* SPI_OBJ_VERSION +59; Custom 22 */
+#define SPI_VERS_CUSTOM23              572   /* SPI_OBJ_VERSION +60; Custom 23 */
+#define SPI_VERS_CUSTOM24              573   /* SPI_OBJ_VERSION +61; Custom 24 */
+#define SPI_VERS_CUSTOM25              574   /* SPI_OBJ_VERSION +62; Custom 25 */
+#define SPI_VERS_CUSTOM26              575   /* SPI_OBJ_VERSION +63; Custom 26 */
+#define SPI_VERS_CUSTOM27              576   /* SPI_OBJ_VERSION +64; Custom 27 */
+#define SPI_VERS_CUSTOM28              577   /* SPI_OBJ_VERSION +65; Custom 28 */
+#define SPI_VERS_CUSTOM29              578   /* SPI_OBJ_VERSION +66; Custom 29 */
+#define SPI_VERS_CUSTOM30              579   /* SPI_OBJ_VERSION +67; Custom 30 */
+#define SPI_VERS_CUSTOM31              580   /* SPI_OBJ_VERSION +68; Custom 31 */
+#define SPI_VERS_CUSTOM32              581   /* SPI_OBJ_VERSION +69; Custom 32 */
+#define SPI_VERS_CUSTOM33              582   /* SPI_OBJ_VERSION +70; Custom 33 */
+#define SPI_VERS_CUSTOM34              583   /* SPI_OBJ_VERSION +71; Custom 34 */
+#define SPI_VERS_CUSTOM35              584   /* SPI_OBJ_VERSION +72; Custom 35 */
+#define SPI_VERS_CUSTOM36              585   /* SPI_OBJ_VERSION +73; Custom 36 */
+#define SPI_VERS_CUSTOM37              586   /* SPI_OBJ_VERSION +74; Custom 37 */
+#define SPI_VERS_CUSTOM38              587   /* SPI_OBJ_VERSION +75; Custom 38 */
+#define SPI_VERS_CUSTOM39              588   /* SPI_OBJ_VERSION +76; Custom 39 */
+#define SPI_VERS_CUSTOM40              589   /* SPI_OBJ_VERSION +77; Custom 40 */
+#define SPI_VERS_MV_CUSTOM01           590   /* SPI_OBJ_VERSION +78; Multi-Value Custom 1 */
+#define SPI_VERS_MV_CUSTOM02           591   /* SPI_OBJ_VERSION +79; Multi-Value Custom 2 */
+#define SPI_VERS_MV_CUSTOM03           592   /* SPI_OBJ_VERSION +80; Multi-Value Custom 3 */
+#define SPI_VERS_MV_CUSTOM04           593   /* SPI_OBJ_VERSION +81; Multi-Value Custom 4 */
+#define SPI_VERS_MV_CUSTOM05           594   /* SPI_OBJ_VERSION +82; Multi-Value Custom 5 */
+#define SPI_VERS_MV_CUSTOM06           595   /* SPI_OBJ_VERSION +83; Multi-Value Custom 6 */
+#define SPI_VERS_MV_CUSTOM07           596   /* SPI_OBJ_VERSION +84; Multi-Value Custom 7 */
+#define SPI_VERS_MV_CUSTOM08           597   /* SPI_OBJ_VERSION +85; Multi-Value Custom 8 */
+#define SPI_VERS_MV_CUSTOM09           598   /* SPI_OBJ_VERSION +86; Multi-Value Custom 9 */
+#define SPI_VERS_MV_CUSTOM10           599   /* SPI_OBJ_VERSION +87; Multi-Value Custom 10 */
+#define SPI_VERS_FILE_NAME             600   /* SPI_OBJ_VERSION +88; File Name */
+
+
+//localize strings here
+STRINGTABLE DISCARDABLE
+BEGIN
+ SPI_ITEM_ID,                          "idmId"
+ SPI_ITEM_OWNER,                       "idmDocOwner"
+ SPI_ITEM_GROUP,                       "idmAddedByGroup"
+ SPI_ITEM_CREATE_DATE,                 "idmDateAdded"
+ SPI_ITEM_COMMENT,                     "idmComment"
+ SPI_ITEM_PROTECTED,                   "idmDocProtected"
+ SPI_ITEM_ORIGINAL_FILE,               "idmDocOriginalFile"
+ SPI_ITEM_FILE_CATEGORY,               "idmDocFileCategory" 
+ SPI_ITEM_CURVER_TRUNC_FILE,           "idmDocCurVerTruncFile"
+ SPI_ITEM_VARIANTS,                    "idmDocVariants"
+ SPI_ITEM_ONLINE_LIMIT,                "idmDocOnlineLimit"
+ SPI_ITEM_DISP_CATEGORY,               "idmDocDispCategory"
+ SPI_ITEM_CURVER_NUM,                  "idmDocCurVerNum"
+ SPI_ITEM_CURVER_DATE,                 "idmDocCurVerDate"
+ SPI_ITEM_CURVER_AUTHOR,               "idmAddedByUser"
+ SPI_ITEM_ONLINE_COUNT,                "idmDocOnlineCount"
+ SPI_ITEM_ONLINE_SIZE,                 "idmDocOnloneSize"
+ SPI_ITEM_LAST_DATE,                   "idmDateAccessed"
+ SPI_ITEM_LAST_VERSION_ID,             "idmDocLastVerId"
+ SPI_ITEM_CURVER_CHECKED_OUT,          "idmDocCurVerCheckedOut"
+ SPI_ITEM_ICON_TITLE,                  "idmName"
+ SPI_ITEM_KEYWORDS,                    "idmDocKeywords"
+ SPI_ITEM_ACL,                         "idmAccessLevel"
+ SPI_ITEM_CUSTOM01,                    "idmDocCustom1" 
+ SPI_ITEM_CUSTOM02,                    "idmDocCustom2"
+ SPI_ITEM_CUSTOM03,                    "idmDocCustom3"
+ SPI_ITEM_CUSTOM04,                    "idmDocCustom4"   
+ SPI_ITEM_CUSTOM05,                    "idmDocCustom5"
+ SPI_ITEM_CUSTOM06,                    "idmDocCustom6"
+ SPI_ITEM_CUSTOM07,                    "idmDocCustom7"
+ SPI_ITEM_CUSTOM08,                    "idmDocCustom8"
+ SPI_ITEM_CUSTOM09,                    "idmDocCustom9"
+ SPI_ITEM_CUSTOM10,                    "idmDocCustom10"
+ SPI_ITEM_CUSTOM11,                    "idmDocCustom11"
+ SPI_ITEM_CUSTOM12,                    "idmDocCustom12"
+ SPI_ITEM_CUSTOM13,                    "idmDocCustom13"
+ SPI_ITEM_CUSTOM14,                    "idmDocCustom14"
+ SPI_ITEM_CUSTOM15,                    "idmDocCustom15"
+ SPI_ITEM_CUSTOM16,                    "idmDocCustom16"
+ SPI_ITEM_CUSTOM17,                    "idmDocCustom17"
+ SPI_ITEM_CUSTOM18,                    "idmDocCustom18"
+ SPI_ITEM_CUSTOM19,                    "idmDocCustom19"
+ SPI_ITEM_CUSTOM20,                    "idmDocCustom20"
+ SPI_ITEM_CURVER_CSI_ID,               "idmDocCurVerCsiId"
+ SPI_ITEM_CURVER_CSI_CID,              "idmDocCurVerCsiCid"
+ SPI_ITEM_CSI_DEFAULT,                 "idmDocCsiDefault"
+ SPI_ITEM_CSI_COUNT,                   "idmDocCsiCount"
+ SPI_ITEM_CSI_LIMIT,                   "idmDocCsiLimit"
+ SPI_ITEM_CUSTOM21,                    "idmDocCustom21"    
+ SPI_ITEM_CUSTOM22,                    "idmDocCustom22"
+ SPI_ITEM_CUSTOM23,                    "idmDocCustom23"
+ SPI_ITEM_CUSTOM24,                    "idmDocCustom24"
+ SPI_ITEM_CUSTOM25,                    "idmDocCustom25"
+ SPI_ITEM_CUSTOM26,                    "idmDocCustom26"
+ SPI_ITEM_CUSTOM27,                    "idmDocCustom27"
+ SPI_ITEM_CUSTOM28,                    "idmDocCustom28"         
+ SPI_ITEM_CUSTOM29,                    "idmDocCustom29"
+ SPI_ITEM_CUSTOM30,                    "idmDocCustom30"
+ SPI_ITEM_CUSTOM31,                    "idmDocCustom31"
+ SPI_ITEM_CUSTOM32,                    "idmDocCustom32"
+ SPI_ITEM_CUSTOM33,                    "idmDocCustom33"
+ SPI_ITEM_CUSTOM34,                    "idmDocCustom34"
+ SPI_ITEM_CUSTOM35,                    "idmDocCustom35"
+ SPI_ITEM_CUSTOM36,                    "idmDocCustom36"
+ SPI_ITEM_CUSTOM37,                    "idmDocCustom37"
+ SPI_ITEM_CUSTOM38,                    "idmDocCustom38"
+ SPI_ITEM_CUSTOM39,                    "idmDocCustom39"
+ SPI_ITEM_CUSTOM40,                    "idmDocCustom40"
+ SPI_ITEM_MV_CUSTOM01,                 "idmDocMvCustom1"
+ SPI_ITEM_MV_CUSTOM02,                 "idmDocMvCustom2"
+ SPI_ITEM_MV_CUSTOM03,                 "idmDocMvCustom3"
+ SPI_ITEM_MV_CUSTOM04,                 "idmDocMvCustom4"
+ SPI_ITEM_MV_CUSTOM05,                 "idmDocMvCustom5"
+ SPI_ITEM_MV_CUSTOM06,                 "idmDocMvCustom6"
+ SPI_ITEM_MV_CUSTOM07,                 "idmDocMvCustom7"
+ SPI_ITEM_MV_CUSTOM08,                 "idmDocMvCustom8"
+ SPI_ITEM_MV_CUSTOM09,                 "idmDocMvCustom9"
+ SPI_ITEM_MV_CUSTOM10,                 "idmDocMvCustom10"
+ SPI_VERS_ID,                          "idmVerId"
+ SPI_VERS_ITEM_ID,                     "idmVerDocId"
+ SPI_VERS_CHECKIN_USER,                "idmVerCheckinUser"
+ SPI_VERS_CHECKIN_GROUP,               "idmVerCheckinGroup"
+ SPI_VERS_CREATE_DATE,                 "idmVerCreateDate"
+ SPI_VERS_COMMENT,                     "idmVerComment"
+ SPI_VERS_APPLICATION,                 "idmVerApplication"
+ SPI_VERS_FILE_DATE,                   "idmVerFileDate"
+ SPI_VERS_FILE_SIZE,                   "idmVerFileSize"
+ SPI_VERS_SHELF_DATE,                  "idmVerShelfDate"
+ SPI_VERS_SHELF_ID,                    "idmVerShelfId"   
+ SPI_VERS_SHELF_FILE_ID,               "idmVerShelfFileId"
+ SPI_VERS_LAST_DATE,                   "idmDateModified"
+ SPI_VERS_LAST_USER,                   "idmModifiedByUser"
+ SPI_VERS_LAST_GROUP,                  "idmVerLastGroup"
+ SPI_VERS_AVAIL_STAT,                  "idmVerAvailStat"
+ SPI_VERS_DISP_ID,                     "idmVerDispId"
+ SPI_VERS_DISP_DATE,                   "idmVerDispDate"
+ SPI_VERS_RECLAIM_PENDING,             "idmVerReclaimPending"
+ SPI_VERS_PERMANENT,                   "idmVerPermanent"
+ SPI_VERS_CHECKOUT_PENDING,            "idmVerCheckoutPending"
+ SPI_VERS_MERGE_SRC,                   "idmVerMergeSrc"
+ SPI_VERS_MERGE_DST,                   "idmVerMergeDst"
+ SPI_VERS_BRANCH_COUNT,                "idmVerBranchCount"
+ SPI_VERS_BRANCH_CURVER,               "idmVerBranchCurVer"
+ SPI_VERS_RECLAIM_DATE,                "idmVerReclaimDate"
+ SPI_VERS_B_I_ID_MAJOR,                "idmVerBackupIdMajor"
+ SPI_VERS_B_I_ID_MINOR,                "idmVerBackupIdMinor"
+ SPI_VERS_CHECKOUT_DATE,               "idmVerPrevCheckoutDate"
+ SPI_VERS_OFFLINE_LOCATION,            "idmVerOfflineLocation"
+ SPI_VERS_CSI_ID,                      "idmVerCsiId"
+ SPI_VERS_CSI_CID,                     "idmVerCsiMinor"
+ SPI_VERS_CSI_STATUS,                  "idmVerCsiStatus"         
+ SPI_VERS_CSI_MAJOR,                   "idmVerCsiMajor"
+ SPI_VERS_CSI_MINOR,                   "idmVerCsiMinor"
+ SPI_VERS_CSI_PERMANENT,               "idmVerCsiPermanent"
+ SPI_VERS_CUSTOM01,                    "idmVerCustom1"
+ SPI_VERS_CUSTOM02,                    "idmVerCustom2"
+ SPI_VERS_CUSTOM03,                    "idmVerCustom3"
+ SPI_VERS_CUSTOM04,                    "idmVerCustom4"
+ SPI_VERS_CUSTOM05,                    "idmVerCustom5"
+ SPI_VERS_CUSTOM06,                    "idmVerCustom6"
+ SPI_VERS_CUSTOM07,                    "idmVerCustom7"
+ SPI_VERS_CUSTOM08,                    "idmVerCustom8"      
+ SPI_VERS_CUSTOM09,                    "idmVerCustom9"
+ SPI_VERS_CUSTOM10,                    "idmVerCustom10"
+ SPI_VERS_CUSTOM11,                    "idmVerCustom11"
+ SPI_VERS_CUSTOM12,                    "idmVerCustom12"
+ SPI_VERS_CUSTOM13,                    "idmVerCustom13"
+ SPI_VERS_CUSTOM14,                    "idmVerCustom14"
+ SPI_VERS_CUSTOM15,                    "idmVerCustom15"
+ SPI_VERS_CUSTOM16,                    "idmVerCustom16"
+ SPI_VERS_CUSTOM17,                    "idmVerCustom17"
+ SPI_VERS_CUSTOM18,                    "idmVerCustom18"
+ SPI_VERS_CUSTOM19,                    "idmVerCustom19"
+ SPI_VERS_CUSTOM20,                    "idmVerCustom20"
+ SPI_VERS_CUSTOM21,                    "idmVerCustom21"
+ SPI_VERS_CUSTOM22,                    "idmVerCustom22"
+ SPI_VERS_CUSTOM23,                    "idmVerCustom23"
+ SPI_VERS_CUSTOM24,                    "idmVerCustom24"
+ SPI_VERS_CUSTOM25,                    "idmVerCustom25"
+ SPI_VERS_CUSTOM26,                    "idmVerCustom26"
+ SPI_VERS_CUSTOM27,                    "idmVerCustom27"
+ SPI_VERS_CUSTOM28,                    "idmVerCustom28"
+ SPI_VERS_CUSTOM29,                    "idmVerCustom29"
+ SPI_VERS_CUSTOM30,                    "idmVerCustom30"    
+ SPI_VERS_CUSTOM31,                    "idmVerCustom31"
+ SPI_VERS_CUSTOM32,                    "idmVerCustom32"
+ SPI_VERS_CUSTOM33,                    "idmVerCustom33"
+ SPI_VERS_CUSTOM34,                    "idmVerCustom34" 
+ SPI_VERS_CUSTOM35,                    "idmVerCustom35"
+ SPI_VERS_CUSTOM36,                    "idmVerCustom36"
+ SPI_VERS_CUSTOM37,                    "idmVerCustom37"
+ SPI_VERS_CUSTOM38,                    "idmVerCustom38"
+ SPI_VERS_CUSTOM39,                    "idmVerCustom39"  
+ SPI_VERS_CUSTOM40,                    "idmVerCustom40"
+ SPI_VERS_MV_CUSTOM01,                 "idmVerMvCustom1"
+ SPI_VERS_MV_CUSTOM02,                 "idmVerMvCustom2"
+ SPI_VERS_MV_CUSTOM03,                 "idmVerMvCustom3"
+ SPI_VERS_MV_CUSTOM04,                 "idmVerMvCustom4"
+ SPI_VERS_MV_CUSTOM05,                 "idmVerMvCustom5"
+ SPI_VERS_MV_CUSTOM06,                 "idmVerMvCustom6"
+ SPI_VERS_MV_CUSTOM07,                 "idmVerMvCustom7"
+ SPI_VERS_MV_CUSTOM08,                 "idmVerMvCustom8"
+ SPI_VERS_MV_CUSTOM09,                 "idmVerMvCustom9"
+ SPI_VERS_MV_CUSTOM10,                 "idmVerMvCustom10"
+ SPI_VERS_FILE_NAME,                   "idmVerFileName"
+
+END
+//END OF PART 2
+//=====================================================================
+//=====================================================================
+// PART 3. Bitmap
+//=====================================================================
+1   	 		       Buttons 	idmadd.btn
+2	 		       Buttons	idmopen.btn
+3		               Buttons	idmcheckin.btn
+4	                       Buttons	idmcancelcheckout.btn
+5 		               Buttons	idmsave.btn
+6		               Buttons	idminsertproperties.btn
+7	                       Buttons	idmupdateproperties.btn
+8			       Buttons  idmproperties.btn
+9                              Buttons  FileNetLogo.btn 
+
+//=====================================================================

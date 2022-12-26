@@ -1,0 +1,1 @@
+This is a sample child and contains only content. Additional links could be entered within this document to find children in depth.  Copy this child to the root of the C: drive if using with the SampleParent.
